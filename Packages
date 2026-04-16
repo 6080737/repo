@@ -1,0 +1,56 @@
+Package: byg.iosios.net.camera.rootless
+Version: 0.1-2
+Architecture: iphoneos-arm64e
+Maintainer: 苏苏·Repo
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/全屏相机 (RootHide).deb
+Size: 9246
+MD5sum: 51705cb7473370988d9b4ba99c3edbb4
+SHA1: ef941e3866ca2fd900231ff4b532c763b44071dc
+SHA256: 95a163e5d45dff7a201c90c260bb426f8581703a2fa1e2caca9ac64001b070cd
+Section: RootHide
+Description: 系统相机开启全屏拍照，禁用拍照提示音。此插件由搬运工源iOSign免费首发，搬运工源只为给您带来最好的iPhone体验！永久免费的搬运工源！越狱必加！
+Author: iOSign
+Icon: https://6080737.github.io/repo/
+Name: 全屏相机 (RootHide)
+Sponsor: 苏苏·Repo
+
+Package: byg.iosios.net.zhuxiao
+Version: 0.0.3
+Architecture: iphoneos-arm64e
+Maintainer: 苏苏·Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/注销不锁屏 (RootHide).deb
+Size: 10052
+MD5sum: 04e910c54d477c1577c282793c9b75c0
+SHA1: ff4bdfa72e1d8dde6e7135eba81f219844f49199
+SHA256: 2654089686195f46de94262efdee71b1f828322a68ee844377591c9f60f58df1
+Section: RootHide
+Description: 在注销前是解锁状态的情况下，注销后自动跳过人脸或指纹识别到桌面。并不保证一定有效，无效请卸载！
+Author: Brend0n
+Icon: https://6080737.github.io/repo/
+Name: 注销不锁屏 (RootHide)
+Sponsor: 苏苏·Repo
+
+Package: susupojie.com
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: 苏苏·Repo
+Installed-Size: 204
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), firmware (<< 17.0), mobilesubstrate
+Filename: debs/苏苏破解AutoTocuh (RootHide).deb
+Size: 51786
+MD5sum: 3a2dc260324a323d284016de806715af
+SHA1: c464c4beae6a5a95ffdf879c90e1554fbde465ee
+SHA256: 15d79b0eee0306fc4dccf52454393efbf8bc30540e061e9e9cc8e836ac091770
+Section: RootHide
+Description: 苏苏破解版补丁AutoTocuh·支持16.5系统
+Author: SuSu
+Icon: https://6080737.github.io/repo/
+Name: 苏苏破解AutoTocuh (RootHide)
+Sponsor: 苏苏·Repo
+

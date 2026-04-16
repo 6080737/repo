@@ -1,0 +1,9 @@
+Origin: 苏苏·Repo
+Label: 苏苏·Repo
+Suite: stable
+Version: 1.0
+Codename: iphoneos
+Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
+Components: main
+Description: 苏苏 Private Repo | This is a self-use software source
+Hide-Section: RootHide Packages
