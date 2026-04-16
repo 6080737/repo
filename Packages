@@ -17,6 +17,62 @@ Icon: https://6080737.github.io/repo/
 Name: 全屏相机 (RootHide)
 Sponsor: 苏苏·Repo
 
+Package: byg.iosios.net.dumpapp.wechat-rootless
+Version: 2.4.0
+Architecture: iphoneos-arm64e
+Maintainer: 苏苏·Repo
+Installed-Size: 14436
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 12.0)
+Filename: debs/锤子助手 (RootHide).deb
+Size: 15170420
+MD5sum: 7ccd3ab860fb49d0ad551543ee218be2
+SHA1: a09eec87cb560538aaa6a70cdd870f0d4f637bf3
+SHA256: 38cc39ce59372a225d9f36da689dc04a60e1261d5e4c1bb9edae7a9ea2c1dc28
+Section: RootHide
+Description: 锤子助手插件，感觉就是微信净化换了个名字重现江湖，至于有没有什么其它限制，暂时不清楚，喜欢微信净化的用户可以试试此插件，可以防撤回，抢红包，转发语音等功能，自行体验！感谢搬运工源群管理GODW分享，越狱因为分享更精彩！
+Author: DumpApp
+Icon: https://6080737.github.io/repo/
+Name: 锤子助手 (RootHide)
+Sponsor: 苏苏·Repo
+
+Package: byg.iosios.net.milkyway2
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: 苏苏·Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, oldabi, preferenceloader, com.opa334.ccsupport, firmware (>= 15.0)
+Filename: debs/MilkyWay2分屏 (RootHide).deb
+Size: 186444
+MD5sum: b0aa59bb2e90a423c250e55d27eb0975
+SHA1: 99a19416a36cccd3e935b1d8bc13a60992f394b8
+SHA256: ed77b12ad4229e16997463d68882540d793974d6b49bcc713db2c2788c4175d3
+Section: RootHide
+Description: Modifications based on the original version, Fix multitasking support on iOS/iPadOS 16+.
+Author: akusio
+Icon: https://6080737.github.io/repo/
+Name: MilkyWay2分屏 (RootHide)
+Sponsor: 苏苏·Repo
+
+Package: byg.iosios.net.mostwallpaper.rootless
+Version: 0.1-2
+Architecture: iphoneos-arm64e
+Maintainer: 苏苏·Repo
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/最美壁纸破解 (RootHide).deb
+Size: 11072
+MD5sum: 4b41668197bca324403c4eafb434c05e
+SHA1: ca79422ed8ba38243ef34fba2ef4224acbe2568b
+SHA256: 2e31dfabaf57d31ce4535bfc456206f6799e948aea79c4872720552d2617441d
+Section: RootHide
+Description: App Store下载最美壁纸。本插件去除广告，解锁VIP资源，由搬运工源iOSign免费首发！请认准搬运工源，你的越狱好帮手！
+Author: iOSign
+Icon: https://6080737.github.io/repo/
+Name: 最美壁纸破解 (RootHide)
+Sponsor: 苏苏·Repo
+
 Package: byg.iosios.net.zhuxiao
 Version: 0.0.3
 Architecture: iphoneos-arm64e
@@ -33,6 +89,144 @@ Description: 在注销前是解锁状态的情况下，注销后自动跳过人�
 Author: Brend0n
 Icon: https://6080737.github.io/repo/
 Name: 注销不锁屏 (RootHide)
+Sponsor: 苏苏·Repo
+
+Package: com.25mao.leftpan.rootless
+Version: 1.0-6
+Architecture: iphoneos-arm64e
+Maintainer: 苏苏·Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist (>= 1.0.4)
+Filename: debs/左滑返回 (RootHide).deb
+Size: 132892
+MD5sum: 384e0099ff3cb445b0bd3319735f6f21
+SHA1: 96366951c60fd9dd08908c7e298388559254c715
+SHA256: e6bb9b874f2c4c87f82f967e18feab0d57861a4f9baa2f0f3e6722da93c24fd4
+Section: RootHide
+Priority: optional
+Description: 左滑返回上一页面
+Author: Mao
+Name: 左滑返回 (RootHide)
+
+Package: com.25mao.msgfilt.rootless
+Version: 1.0-7
+Architecture: iphoneos-arm64e
+Maintainer: 苏苏·Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 5.0)
+Filename: debs/消息屏蔽助手 (RootHide).deb
+Size: 382430
+MD5sum: b3d542faa8665293912a2ff5fd721d1a
+SHA1: 8348339f13c31bdfa3def09dff1e855f4fef4ed1
+SHA256: 957bdb1e217104a2725e6418be1d104f431e1160cc286a5d76a0402e6340e9c4
+Section: RootHide
+Priority: optional
+Description: 消息屏蔽助手
+Author: Mao
+Name: 消息屏蔽助手 (RootHide)
+Sponsor: 苏苏·Repo
+
+Package: com.squidforce.disablepastealert16
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: 苏苏·Repo
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/禁用iOS16+粘贴警告弹窗和粘贴提醒 - DisablePasteAlert16 (RootHide).deb
+Size: 12382
+MD5sum: 82d84db0dff21bd3f37be6434ac350c3
+SHA1: cbba997a4622c3be8616d6f6fbe8763f89bd0c72
+SHA256: 2c91a24db22f2d4d0fb79dbbef4ff812bc14427b7a81214b5d1b33918876b30e
+Section: RootHide
+Description: 1. 禁用iOS16+粘贴警告弹窗，并自动允许
+ 2. 禁用粘贴提醒
+ * 如只需要禁用警告弹窗，可以降级安装版本0.0.1
+Author: SquidForce
+Name: 禁用iOS16+粘贴警告弹窗和粘贴提醒 - DisablePasteAlert16 (RootHide)
+
+Package: com.thevoid.sky
+Version: 0.32.7
+Architecture: iphoneos-arm64e
+Maintainer: 苏苏·Repo
+Installed-Size: 3864
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Filename: debs/TheVoid (RootHide).deb
+Size: 2841978
+MD5sum: 6c4b73c5a11a0eeabc7f720d1d31a2ea
+SHA1: 9fe1eaf30be4b3998e6dfa8a0aa6bc0194bc23a1
+SHA256: 525f1b58bdc13d89cbb0d2e3a7518ec53d2d895f41d61932ba9777ac8d098d94
+Section: RootHide
+Description: Mod menu for Sky: Children of the Light. (Telegram: https://t.me/TheVoidSky)
+Author: Soyu
+Name: TheVoid (RootHide)
+
+Package: com.xybp888.perfectdynamiclsland
+Version: 1.2-30
+Architecture: iphoneos-arm64e
+Maintainer: 苏苏·Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 16.0), mobilesubstrate
+Filename: debs/原生灵动岛) (RootHide).deb
+Size: 1736970
+MD5sum: 39c86fa6fa1157eaa8b34d5012f2e254
+SHA1: 0a2085fb09ade02721bf8cc7757a6121b3fb7aff
+SHA256: 1dec62c124fc347c4662e56be73b99ff90a0121fc0ba24c2db740ee8b22202f4
+Section: RootHide
+Priority: optional
+Description: 电话助手激活用户专属免费插件
+ 完美的使用原生灵动岛展示系统通知等...
+Author: xybp888
+Depiction: https://apt.htv123.com/view/282
+Name: 原生灵动岛) (RootHide)
+Sileodepiction: https://apt.htv123.com/sileo/282
+
+Package: jp.akusio.milkyway4
+Version: 0.1.1
+Architecture: iphoneos-arm64e
+Maintainer: 苏苏·Repo
+Installed-Size: 3464
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, com.opa334.altlist, preferenceloader
+Filename: debs/MilkyWay4 多任务分屏 (RootHide).deb
+Size: 3616604
+MD5sum: 248031681d9251437e82dc5c8dec9320
+SHA1: 789939d01ae50ffcbd4aef4433f5adaf68ef80cc
+SHA256: 87f0349a2abe1c3a78d67e2f0d415bcb550cbdcf7ffc93d92486bdf38b40fe50
+Section: RootHide
+Description: 在任务栏长按要分屏的应用即可启用应用分屏
+Author: @akusio_RR
+Depiction: https://apt.wxhbts.com/view/8800
+Icon: https://6080737.github.io/repo/
+Name: MilkyWay4 多任务分屏 (RootHide)
+Sileodepiction: https://apt.wxhbts.com/sileo/8800
+
+Package: me.afhook.app
+Version: 3.7.0
+Architecture: iphoneos-arm64e
+Maintainer: 苏苏·Repo
+Installed-Size: 1015
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Filename: debs/改个应用-专业的应用修改软件 (RootHide).deb
+Size: 556096
+MD5sum: 7de8ccde9687c265a4e6894c5d9b80f6
+SHA1: d843412e4146935cba700206ff916fcb42d5d466
+SHA256: 1a713e173e1d84fadb2ebde5525506bdc92610e43110eedfa96a94fe3b73b688
+Section: RootHide
+Homepage: https://6080737.github.io/repo/
+Description: 快速更改应用的名字、图标、机型、角标、版本号等。
+  快速更改应用的名字、图标、机型、角标、版本号等。
+ -随心所欲地更改系统应用和三方应用的名字
+ -从系统相册任意选择图片剪切为应用的图标
+ -手动选择软件内置机型和自定义需要的机型
+ -只需要点击一次就永久生效的清空角标功能
+Tag: purpose::extension
+Author: 小哥哥 <zhulongfei28@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=afhookDp
+Dev: zhulongfei28
+Icon: https://6080737.github.io/repo/
+Name: 改个应用-专业的应用修改软件 (RootHide)
 Sponsor: 苏苏·Repo
 
 Package: susupojie.com
@@ -53,4 +247,104 @@ Author: SuSu
 Icon: https://6080737.github.io/repo/
 Name: 苏苏破解AutoTocuh (RootHide)
 Sponsor: 苏苏·Repo
+
+Package: xyz.cypwn.accent
+Version: 0.0.2
+Architecture: iphoneos-arm64e
+Maintainer: 苏苏·Repo
+Installed-Size: 580
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 15.0), ws.hbang.alderis
+Filename: debs/Accent Reborn (RootHide).deb
+Size: 279832
+MD5sum: 8a0073c3631e33baf3c73fd92062c827
+SHA1: 21f41ea33f8a62901fd94f3888fdaf5e9bb9b4f0
+SHA256: 609b12195dc5aaa3ee9276285d7cb49b53b0ad20351335a66a4cf30301f8589d
+Section: RootHide
+Description: Change accent colours systemwide
+Author: Paisseon
+Depiction: https://repo.cypwn.xyz/depiction/1991
+Icon: https://6080737.github.io/repo/
+Name: Accent Reborn (RootHide)
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1991
+
+Package: xyz.cypwn.accentcustom
+Version: 2.0.5
+Architecture: iphoneos-arm64e
+Maintainer: 苏苏·Repo
+Installed-Size: 408
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0), preferenceloader, com.spark.libsparkcolourpicker, com.spark.libsparkapplist
+Conflicts: com.ivanc.accent
+Filename: debs/Accent Custom (RootHide).deb
+Size: 68680
+MD5sum: 7aada360e959ec144e88fccc0ded0560
+SHA1: 733eb690b35c031e866ddc58ca566d16a12496cf
+SHA256: 4fe4f533c7fc0196651915ea101486d195697c5246a71141645ed17e787eef9d
+Section: RootHide
+Description: iOS Accent Colours In macOS Style
+Author: Lillie
+Depiction: https://repo.cypwn.xyz/depiction/1204
+Name: Accent Custom (RootHide)
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1204
+
+Package: xyz.cypwn.storeswitcher2
+Version: 1.0.4
+Architecture: iphoneos-arm64e
+Maintainer: 苏苏·Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 11)
+Filename: debs/StoreSwitcher 2 (RootHide).deb
+Size: 49860
+MD5sum: b036491c5a670af5013f1a3f83f64726
+SHA1: 005e361fc727c28681e0aa1fa246d423c1aab958
+SHA256: bc47944f95aa8aa4e5c3145a8471c0553311bedaa43f208577bb3e0ed6848666
+Section: RootHide
+Description: Adds a button to switch account in App Store account page on iOS 11+.
+Author: 0xkuj
+Depiction: https://repo.cypwn.xyz/depiction/2137
+Icon: https://6080737.github.io/repo/
+Name: StoreSwitcher 2 (RootHide)
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2137
+
+Package: xyz.cypwn.switchshades
+Version: 1.2k
+Architecture: iphoneos-arm64e
+Maintainer: 苏苏·Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common, xyz.cypwn.anthocrack2
+Filename: debs/SwitchShades (RootHide).deb
+Size: 307556
+MD5sum: 41efb29ad0941bd1a55f417bd2c9770d
+SHA1: 757737eea1ffb223a49db7d8f95c06f573919e3f
+SHA256: 58e155ed10979095c4937bb5b0f01ed8a9bfbb2c1f694e1d80d5f7ee5b6b6da1
+Section: RootHide
+Description: Bring color to your app switcher based on app icon
+Author: AnthoPak
+Depiction: https://repo.cypwn.xyz/depiction/2163
+Icon: https://6080737.github.io/repo/
+Name: SwitchShades (RootHide)
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2163
+
+Package: zp.3dtouchtounject.rootless
+Version: 1.0.2
+Architecture: iphoneos-arm64e
+Maintainer: 苏苏·Repo
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/禁止注入之长按图标 - (RootHide).deb
+Size: 18636
+MD5sum: 9d8042c08069fbebb2a275273cdbb826
+SHA1: eecf3225d8023bc3e253304eb5fd1445372d1ed2
+SHA256: 1569fdfa185710041359fe828f247727791568e5c94f23f7d896bb7f352078a9
+Section: RootHide
+Description: 底层控制是否禁用注入（也是操作plist文件，所以官方版不支持）
+ - 优点：大部分APP不会检测到越狱。
+ - 缺点：插件无法生效。
+ - 1.0.1：修复下初始化问题。
+ - 1.0.2：细节优化。!
+Author: zqbb
+Name: 禁止注入之长按图标 - (RootHide)
+Sileodepiction: https://rootless.002599.xyz/web/zp.3dtouchtounject.rootless
 
