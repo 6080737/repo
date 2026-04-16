@@ -286,6 +286,25 @@ Icon: https://6080737.github.io/repo/
 Name: MilkyWay2分屏 (RootHide)
 Sponsor: 苏苏·Repo
 
+Package: byg.iosios.net.mostwallpaper.rootless
+Version: 0.1-2
+Architecture: iphoneos-arm64e
+Maintainer: 苏苏·Repo
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/最美壁纸破解 (RootHide).deb
+Size: 11072
+MD5sum: 4b41668197bca324403c4eafb434c05e
+SHA1: ca79422ed8ba38243ef34fba2ef4224acbe2568b
+SHA256: 2e31dfabaf57d31ce4535bfc456206f6799e948aea79c4872720552d2617441d
+Section: RootHide
+Description: App Store下载最美壁纸。本插件去除广告，解锁VIP资源，由搬运工源iOSign免费首发！请认准搬运工源，你的越狱好帮手！
+Author: iOSign
+Icon: https://6080737.github.io/repo/
+Name: 最美壁纸破解 (RootHide)
+Sponsor: 苏苏·Repo
+
 Package: byg.iosios.net.qqantirecall.x
 Version: 1.6
 Architecture: iphoneos-arm64e
