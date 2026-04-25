@@ -17,6 +17,22 @@ Icon: https://6080737.github.io/repo/
 Name: QQ Purification「净化」 (RootHide)
 Sponsor: 苏苏·Repo
 
+Package: apt.llld.systeminfo
+Version: 2.7.2-3
+Architecture: iphoneos-arm64e
+Maintainer: 苏苏·Repo
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/System Info 系统信息 (RootHide).deb
+Size: 899244
+MD5sum: e24ecc95e03181f5c4c2ecc69068e13a
+SHA1: d999a5455ff486a6e95964b6897be002d20e1011
+SHA256: 095f373ce607702dc51656b615e453ad21784a578ff368c2cd8e7ab823db645d
+Section: RootHide
+Description: Display all system information of iOS。显示 iOS 所有系统信息，不用装Legacy arm64e Support_________仅测试，有问题请卸载
+Author: ARX8x 来了老弟
+Name: System Info 系统信息 (RootHide)
+
 Package: byg.iosios.net.airaw
 Version: 1.6.7
 Architecture: iphoneos-arm64e
