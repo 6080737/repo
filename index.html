@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>苏苏·Repo</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        }
+        body {
+            background-color: #f5f5f7;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .repo-card {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+            padding: 30px;
+            max-width: 600px;
+            width: 100%;
+            text-align: center;
+            position: relative;
+            z-index: 1;
+        }
+        .avatar {
+            width: 120px;
+            height: 120px;
+            border-radius: 20px;
+            background: #fff;
+            margin: 0 auto 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+        h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            color: #1d1d1f;
+            margin-bottom: 10px;
+        }
+        .repo-url {
+            font-size: 1.2rem;
+            color: #86868b;
+            margin-bottom: 30px;
+            word-break: break-all;
+        }
+        .tip {
+            font-size: 0.9rem;
+            color: #86868b;
+            margin-top: 20px;
+        }
+        .glass-btn {
+            background: rgba(255, 255, 255, 0.35);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid rgba(0, 0, 0, 0.08);
+            color: #1d1d1f;
+            border-radius: 18px;
+            padding: 16px 42px;
+            font-size: 1.05rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: 0.25s ease;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+            text-decoration: none;
+            display:inline-block;
+        }
+        .glass-btn:active {
+            transform: scale(0.96);
+            background: rgba(255, 255, 255, 0.55);
+        }
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.3);
+            backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px);
+            display: none;
+            align-items: center;
+            justify-content: center;
+            z-index: 9999;
+        }
+        .glass-modal {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(25px) saturate(180%);
+            -webkit-backdrop-filter: blur(25px) saturate(180%);
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            border-radius: 20px;
+            padding: 24px;
+            max-width: 360px;
+            width: 90%;
+            text-align: center;
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+            transform: scale(0.95);
+            transition: transform 0.2s ease;
+        }
+        .glass-modal.show {transform: scale(1);}
+        .modal-title {
+            font-size: 1.15rem;
+            font-weight: 600;
+            color: #1d1d1f;
+            margin-bottom: 12px;
+        }
+        .modal-content {
+            font-size: 0.95rem;
+            color: #444;
+            line-height: 1.5;
+            margin-bottom: 20px;
+            text-align: left;
+        }
+        .modal-buttons {
+            display: flex;
+            gap: 12px;
+            justify-content: flex-end;
+        }
+        .modal-btn {
+            padding: 10px 20px;
+            border-radius: 12px;
+            font-size: 1rem;
+            font-weight: 500;
+            cursor: pointer;
+            border: none;
+            transition: 0.2s ease;
+            text-decoration: none;
+            display:inline-block;
+        }
+        .modal-btn.cancel {
+            background: rgba(0, 0, 0, 0.05);
+            color: #1d1d1f;
+        }
+        .modal-btn.confirm {
+            background: #007aff;
+            color: #fff;
+        }
+        .modal-btn:active {transform: scale(0.96);}
+    </style>
+</head>
+<body>
+    <div class="repo-card">
+        <!-- 已替换为你的 CydiaIcon.png 图片 完美适配圆角大小 -->
+        <div class="avatar">
+            <img src="https://raw.githubusercontent.com/6080737/repo/main/CydiaIcon.png" alt="图标" style="width:100%;height:100%;object-fit:cover;">
+        </div>
+        <h1>苏苏·Repo</h1>
+        <div class="repo-url">https://6080737.github.io/repo/</div>
+        <a href="sileo://source/https://6080737.github.io/repo/" class="glass-btn">📲 一键添加到 Sileo</a>
+        <div class="tip">苏苏收集越狱插件源 · 个人备份</div>
+    </div>
+
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="glass-modal" id="glassModal">
+            <div class="modal-title">添加软件源到 Sileo</div>
+            <div class="modal-content">
+                源地址：https://6080737.github.io/repo/<br><br>
+                点击「确定」将自动跳转 Sileo 完成添加
+            </div>
+            <div class="modal-buttons">
+                <button class="modal-btn cancel" onclick="closeModal()">取消</button>
+                <a href="sileo://source/https://6080737.github.io/repo/" class="modal-btn confirm">确定</a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const modalOverlay = document.getElementById("modalOverlay");
+        const glassModal = document.getElementById("glassModal");
+        function openModal(){modalOverlay.style.display="flex";setTimeout(()=>glassModal.classList.add("show"),10);}
+        function closeModal(){glassModal.classList.remove("show");setTimeout(()=>modalOverlay.style.display="none",200);}
+        modalOverlay.addEventListener("click",e=>e.target===modalOverlay&&closeModal());
+    </script>
+</body>
+</html>
