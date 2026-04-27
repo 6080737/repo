@@ -176,11 +176,11 @@ Installed-Size: 14436
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, firmware (>= 12.0)
 Filename: debs/锤子助手 (RootHide).deb
-Size: 15170442
-MD5sum: 26f0fb5f7f9d51fbdfbbeee6ec860526
-SHA1: 5069b0e16d25d0399ce1e0319f368af4335bf9a3
-SHA256: e6446de00568304846e7753d500ef15998bee4992f1715cf369c3ba4554a632a
-Section: RootHide
+Size: 11241444
+MD5sum: 8f87ad6025aa0d8fdd5e3357c4193194
+SHA1: 9a98508b2d12e18cbd9722e46d64b406be323627
+SHA256: b5b614dd564ea5bb4f878529da49966ae3b60ff6a57c087810ef1a1da2fa7638
+Section: 微信WeChat
 Description: 锤子助手插件，感觉就是微信净化换了个名字重现江湖，至于有没有什么其它限制，暂时不清楚，喜欢微信净化的用户可以试试此插件，可以防撤回，抢红包，转发语音等功能，自行体验！感谢搬运工源群管理GODW分享，越狱因为分享更精彩！
 Author: DumpApp
 Icon: https://6080737.github.io/repo/
@@ -535,11 +535,11 @@ Maintainer: 苏苏·Repo
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 5.0)
 Filename: debs/消息屏蔽助手 (RootHide).deb
-Size: 382430
-MD5sum: 7499118f68996eff29bd00786ffc6066
-SHA1: 8f81457d645435cdc39bac87492a62548e3d1757
-SHA256: 5eb0a983529537a4b400b36ec79cf4560334a568228c0b58137875eed88118b7
-Section: RootHide
+Size: 145416
+MD5sum: 22a4884314e9852b42f5cf92dbd4d7f7
+SHA1: 1e2687684dd9fd33c6d5936e88dac234cb09ff16
+SHA256: 1977f67302af6282ce64f8ff6fceae3cacb27f0481c721347579efef9f0e986b
+Section: 微信WeChat
 Priority: optional
 Description: 消息屏蔽助手
 Author: Mao
@@ -553,10 +553,10 @@ Maintainer: 苏苏·Repo
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 5.0)
 Filename: debs/微信插件管理 (RootHide).deb
-Size: 34648
-MD5sum: 8d56062818e3339434f27dc5dac67234
-SHA1: cb4202be26c705b6be8352848e2925aaac75ee02
-SHA256: f7aec814570a209148d3698954385ba6cf6a03817cb7e625c6f96c7bed2f7155
+Size: 34650
+MD5sum: a330733755d2fa402184cc0ef9aa27a4
+SHA1: 221ac3b828c58f1f698404c43ef702343b0f99e9
+SHA256: e6dc70f610be1705e620c29f38a1978ab64ae4a17b4bbc07aa3476e515809195
 Section: 微信WeChat
 Priority: optional
 Description: 插件管理-Rootless
@@ -1010,11 +1010,11 @@ Installed-Size: 2180
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate
 Filename: debs/酸果 - (RootHide).deb
-Size: 1694938
-MD5sum: 400a7ffa0fabebd81f61de2bde8e84d9
-SHA1: 822ec53f52227d161a270c1c8d76ef2277727a4c
-SHA256: d8aa7a82c616d1fb9fcee4ba3692fa1c0494ca198bcb969d4001f14f365848d2
-Section: RootHide
+Size: 636744
+MD5sum: 86e1cdbfd0d18c45dab097411a6debbe
+SHA1: 10d17bff0df37cc047e956f078f8ccc947397d77
+SHA256: ff69e0d699021661fe37c6081ebff1fe09f95eed6657722b6d3f09c54c648fee
+Section: 微信WeChat
 Description: 本插件安装包来自苏兔源
 Author: 公众号：苏兔（bysutu） <super.cat.sutuplus@gmail.com>
 Depiction: http://apt.sutuplus.com/pkg/com.sutuplus.release
@@ -1144,10 +1144,10 @@ Maintainer: 苏苏·Repo
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 5.0)
 Filename: debs/微信助手 密友 (RootHide).deb
-Size: 13930826
-MD5sum: 8c13fd7c130c23f696037608c546c543
-SHA1: fcfb6f1f3d7a43df68977ac0c250c393854dc12c
-SHA256: 8749671487cabf8d63d439957ff6b00e65985143e07d43e10ac8efe242156aeb
+Size: 13930822
+MD5sum: 8560ae901632ef908f7a6517f7dec037
+SHA1: d6b22bde1873131315e564cd2227e45e03ea4800
+SHA256: fa81e83e2b42d883dc1e11dee504a5f4a0e2f8c846c83f48ea3fa1ff68e54342
 Section: 微信WeChat
 Priority: optional
 Description: 微信助手 密友
