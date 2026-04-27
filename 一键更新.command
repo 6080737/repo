@@ -74,7 +74,7 @@ echo -e "${CYAN}🚀 正在提交索引到本地仓库...${NC}"
 # 修复1：用 --all 跟踪 debs 里的删除/新增/修改
 git add --all .
 # 修复2：不吞错误，判断提交结果
-if git commit -m "苏苏·Repo 一键更新：自动清理旧版 $(date +%Y-%m-%d_%H:%M:%S)"; then
+if git commit -m "苏苏·Repo 一键更新：自动清理旧版 $(date +%Y-%m-%d-%H-%M-%S)"; then
     echo -e "${GREEN}✅ 本地提交完成${NC}"
 else
     echo -e "${YELLOW}⚠️  无新变更，无需提交，直接推送${NC}"

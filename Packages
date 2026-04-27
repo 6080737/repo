@@ -1198,6 +1198,23 @@ Depiction: https://apt.htv123.com/view/282
 Name: 原生灵动岛) (RootHide)
 Sileodepiction: https://apt.htv123.com/sileo/282
 
+Package: com.ylr.zfbhook
+Version: 1.5.5
+Architecture: iphoneos-arm64e
+Maintainer: 苏苏·Repo
+Installed-Size: 204
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 14.0)
+Filename: debs/支付宝步数 (RootHide).deb
+Size: 59870
+MD5sum: a573a2de7ac42dec0109741e65117d2e
+SHA1: b95481f5ac1b12b6dab02ba8dac31c081df2e9c9
+SHA256: 9a14c9bb6214f2c80098c2f4576c2d606488d9680813ed0c998ab587130fdce2
+Section: RootHide
+Description: 领一下能量哦、长按底栏1秒
+Author: ylr
+Name: 支付宝步数 (RootHide)
+
 Package: jp.akusio.milkyway4
 Version: 0.1.1
 Architecture: iphoneos-arm64e
