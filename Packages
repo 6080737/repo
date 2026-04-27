@@ -397,24 +397,6 @@ Icon: https://6080737.github.io/repo/
 Name: CCLess控制中心多模块 (RootHide)
 Sponsor: 苏苏·Repo
 
-Package: byg.iosios.net.rootless.noseparators
-Version: 1.3-1
-Architecture: iphoneos-arm64e
-Maintainer: 苏苏·Repo
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate
-Filename: debs/NoLine去分割线 (RootHide).deb
-Size: 10388
-MD5sum: 6f38999780d3b5fb32d18627fc14b2e9
-SHA1: 8eebb9d4403473423202eb7ff34edba736d111e7
-SHA256: 64aa8af3cc7ca219f2f91c6b8ed6884bf6673352ef12daf4469cf97ad4f23819
-Section: RootHide
-Description: 去除弹窗/UI/长按菜单等地方的分割线，没什么卵用的插件，应群友要求，上架备份！
-Author: 妖刀
-Icon: https://6080737.github.io/repo/
-Name: NoLine去分割线 (RootHide)
-Sponsor: 苏苏·Repo
-
 Package: byg.iosios.net.sleeperx
 Version: 3.0.5
 Architecture: iphoneos-arm64e
@@ -435,26 +417,6 @@ Icon: https://6080737.github.io/repo/
 Name: SleeperX闹钟优化 (RootHide)
 Sponsor: 苏苏·Repo
 
-Package: byg.iosios.net.smartvpn
-Version: 2.5
-Architecture: iphoneos-arm64e
-Maintainer: 苏苏·Repo
-Installed-Size: 424
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate (>= 0.9.5000), com.kingpuffdaddi.control-center.ccvpn, com.opa334.altlist
-Conflicts: com.skypain.ccvpn
-Filename: debs/SmartVPN智能VPN (RootHide).deb
-Size: 143728
-MD5sum: 6e2e68f343b97722f9e011dd1b4c8dea
-SHA1: e58ab8a1440b7df7b9f9568483740dc316b54f76
-SHA256: 4c8078dd06d19a40b1724fbec4808f7dcc5a1095334f9db8876cfb9fd707d2ac
-Section: RootHide
-Description: An awesome MobileSubstrate tweak!一款智能VPN插件，可以设置打开某个软件时自动打开VPN，关闭时自动关闭，非常的便利。当然，这个功能快捷指令也可以做到。经过源主测试好像只有bigboss源的ccvpn插件能够在关闭软件时自动关闭VPN，其它的只能开，不能关。所以想用这个插件的需要缷载已安装的ccless和ccvpn插件，后面想办法修复兼容！
-Author: b4db1r3
-Icon: https://6080737.github.io/repo/
-Name: SmartVPN智能VPN (RootHide)
-Sponsor: 苏苏·Repo
-
 Package: byg.iosios.net.storeswitcher2
 Version: 1.1-4
 Architecture: iphoneos-arm64e
@@ -473,24 +435,6 @@ Description: App Store帐户页面中快速切换帐号，如国区、美区。�
 Author: Netsko
 Icon: https://6080737.github.io/repo/
 Name: AppStore账号切换 (RootHide)
-Sponsor: 苏苏·Repo
-
-Package: byg.iosios.net.teleportcn
-Version: 1.0.0-1
-Architecture: iphoneos-arm64e
-Maintainer: 苏苏·Repo
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate
-Filename: debs/Teleport虚拟定位汉化包 (RootHide).deb
-Size: 25762
-MD5sum: cdc91878c5b92eb6b3b623b00d7aaebd
-SHA1: c758faaa844674006e3dafad440987c896fc7c51
-SHA256: d7553e876df8e711b0329f400229480f7bc725b0b8252038fb8256798248cd59
-Section: RootHide
-Description: Teleport虚拟定位简体中文包
-Author: Mr.Zhang
-Icon: https://6080737.github.io/repo/
-Name: Teleport虚拟定位汉化包 (RootHide)
 Sponsor: 苏苏·Repo
 
 Package: byg.iosios.net.trollstore
@@ -789,30 +733,6 @@ Icon2: 16.png
 Name: Shuffle设置归类 (RootHide)
 Sponsor: 苏苏·Repo
 
-Package: com.cydiageek.myswitches
-Version: 1.0.7
-Architecture: iphoneos-arm64e
-Maintainer: 苏苏·Repo
-Installed-Size: 506
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader, org.thebigboss.libcolorpicker
-Filename: debs/MySwitches (RootHide).deb
-Size: 177498
-MD5sum: 75cf8f8c0558c8df3634ed124bd975ee
-SHA1: 601da049b1ccb7f57b9d9e63d1f44daa2176a90b
-SHA256: 126417fbfd2968b4b7efc327366bfa8b53c4437ce15620f1d22f151c3a905aff
-Section: RootHide
-Priority: optional
-Homepage: https://6080737.github.io/repo/
-Description: Custom options for the Switches on System Wide!
-Tag: purpose::extension
-Author: CydiaGeek <lucaluca86@aol.com>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=myswitchesDp
-Dev: lucaluca86
-Icon: https://6080737.github.io/repo/
-Name: MySwitches (RootHide)
-Sponsor: 苏苏·Repo
-
 Package: com.dao.bhinsta
 Version: 1.2
 Architecture: iphoneos-arm64e
@@ -848,67 +768,6 @@ Description: 推特多功能插件，NeoFreeBird版的BHTwitter，比常规BHTwi
 Author: NeoFreeBird
 Name: NFB-BHTwitter 中文版) (RootHide)
 Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/nfb-bht/js.json
-
-Package: com.huayuarc.iosthermalpro
-Version: 0.1.2
-Architecture: iphoneos-arm64e
-Maintainer: 苏苏·Repo
-Installed-Size: 1332
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate
-Conflicts: com.yourepo.0xash.powercuff, byg.iosios.net.powercuff, com.dao.powercuff, com.rpetrich.powercuff, com.yourepo.0xash.devicemonitor, com.yourepo.0xash.fuckthermal, com.shadow.fuckthermal, com.dao.fuckthermal, byg.iosios.net.monitor, byg.iosios.net.disablethermalmonitord, com.nan.disablethermalmonitord, com.huayuarc.iosthermal, cn.zqbb.holdcpu
-Filename: debs/IosThermal) (RootHide).deb
-Size: 871652
-MD5sum: bed3772ecef2430d0bdd0d4c7c3c98f0
-SHA1: 32e8ce93485d4dbd39121398a686fde68c5e3f06
-SHA256: 21520046bd724181ce9c63816f666ef1f3ac8fd7babc41efe950311388767208
-Section: RootHide
-Description: 去温控组合插件 (推荐使用真皮Hello CPU)
-Author: Huayuarc
-Depiction: https://huayuarc.github.io/sileodepiction/IosThermal/IosThermal.json
-Icon: https://6080737.github.io/repo/
-Name: IosThermal) (RootHide)
-Sileodepiction: https://huayuarc.github.io/sileodepiction/IosThermal/IosThermal.json
-
-Package: com.kingpuffdaddi.control-center.ccvpn
-Version: 1.0.6
-Architecture: iphoneos-arm64e
-Maintainer: 苏苏·Repo
-Installed-Size: 187
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.opa334.ccsupport
-Filename: debs/CCVPN (RootHide).deb
-Size: 38516
-MD5sum: 4400a3ac68c21df87ea7690e4a602a09
-SHA1: 728029375196ed37a6ea8fab3d22f6e868668b9c
-SHA256: 02ba47afe169876efa40647fdcb2f3a1153945c8c782dc82100c49aabf07374d
-Section: RootHide
-Homepage: https://6080737.github.io/repo/
-Description: A Control Center Module to connect/disconnect VPN
-Tag: purpose::extension
-Author: KingPuffdaddi <kingpuffdaddi@icloud.com>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccvpnDp
-Dev: kingpuffdaddi
-Icon: https://6080737.github.io/repo/
-Name: CCVPN (RootHide)
-
-Package: com.krashkop
-Version: 1.0.2
-Architecture: iphoneos-arm64e
-Maintainer: 苏苏·Repo
-Installed-Size: 428
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
-Filename: debs/KrashKop (RootHide).deb
-Size: 436108
-MD5sum: e89f63807ca0b4d9e334ddfb08fbeb55
-SHA1: d9c39e44750358266dc3b3fddb6d5edda368248c
-SHA256: 292dddb06c82e6ff0b2ed94fae5da508560354ae31c5e52a2cc171cfa8915da8
-Section: RootHide
-Description: 与Cr4shed功能差不多，用来查看崩溃日志。
-Author: FoxfortMobile
-Icon: https://6080737.github.io/repo/
-Name: KrashKop (RootHide)
 
 Package: com.lclrc.hammerit
 Version: 1.7.0
@@ -1182,23 +1041,6 @@ Icon: https://6080737.github.io/repo/
 Name: Teleport 虚拟定位 (RootHide)
 Sileodepiction: https://TrollStoreX.Github.io/sileodepiction/Teleport/js.json
 
-Package: com.thevoid.sky
-Version: 0.32.7
-Architecture: iphoneos-arm64e
-Maintainer: 苏苏·Repo
-Installed-Size: 3864
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
-Filename: debs/TheVoid (RootHide).deb
-Size: 2841978
-MD5sum: 6c4b73c5a11a0eeabc7f720d1d31a2ea
-SHA1: 9fe1eaf30be4b3998e6dfa8a0aa6bc0194bc23a1
-SHA256: 525f1b58bdc13d89cbb0d2e3a7518ec53d2d895f41d61932ba9777ac8d098d94
-Section: RootHide
-Description: Mod menu for Sky: Children of the Light. (Telegram: https://t.me/TheVoidSky)
-Author: Soyu
-Name: TheVoid (RootHide)
-
 Package: com.tigisoftware.appdatamanager
 Version: 1.8.2-4
 Architecture: iphoneos-arm64e
@@ -1215,26 +1057,6 @@ Section: RootHide
 Description: This tool provides the way to WIPE, BACKUP, RESTORE AppData for installed Apps
 Author: TIGI Software
 Name: Apps Manager (RootHide)
-
-Package: com.wxhbts.ccpower-rootless
-Version: 1.9-4
-Architecture: iphoneos-arm64e
-Maintainer: 苏苏·Repo
-Installed-Size: 2424
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport (>= 1.3)
-Filename: debs/CCPower 快捷控制中心 (RootHide).deb
-Size: 3620800
-MD5sum: 9c11c8cbeab7b89498ca282d2a981591
-SHA1: be1d74f6d931d9778a567973a2fba2ae90e1f6e7
-SHA256: ab8771acf17f50f3bcb03c88fd31e9f1a7632a1e1ba21362b351ec03622d095c
-Section: RootHide
-Description: 通过控制中心快捷实现多种功能
-Author: Netskao
-Depiction: https://apt.wxhbts.com/view/8315
-Icon: https://6080737.github.io/repo/
-Name: CCPower 快捷控制中心 (RootHide)
-Sileodepiction: https://apt.wxhbts.com/sileo/8315
 
 Package: com.wxhbts.disablectnotifyui-rootless
 Version: 1.1-1
@@ -1356,23 +1178,6 @@ Icon: https://6080737.github.io/repo/
 Name: ShowTouch 录屏小白点 (RootHide)
 Sileodepiction: https://apt.wxhbts.com/sileo/9802
 
-Package: com.xia0.fakelocationx
-Version: 6.3-2
-Architecture: iphoneos-arm64e
-Maintainer: 苏苏·Repo
-Installed-Size: 1348
-Depends: mobilesubstrate
-Filename: debs/FakeLocationX (RootHide).deb
-Size: 802922
-MD5sum: ef89a969755721746cec07f2919eab42
-SHA1: ab464c30832edc07463084b5d25046fb4daaf034
-SHA256: e1ca47ef97d9fc670d9a145b9d5f89d13b8348a6f3afa5c17969f62a7e0876e4
-Section: RootHide
-Description: The Best Fake Location Tweak xia0Dev Edition
-Author: xia0 & Lakr
-Icon: https://6080737.github.io/repo/
-Name: FakeLocationX (RootHide)
-
 Package: com.xybp888.perfectdynamiclsland
 Version: 1.2-30
 Architecture: iphoneos-arm64e
@@ -1409,24 +1214,6 @@ Section: RootHide
 Description: 领一下能量哦、长按底栏1秒
 Author: ylr
 Name: 支付宝步数 (RootHide)
-
-Package: de.finngaida.daynightswitch
-Version: 1.1
-Architecture: iphoneos-arm64e
-Maintainer: 苏苏·Repo
-Installed-Size: 584
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 14.0), mobilesubstrate
-Filename: debs/DayNightSwitch) (RootHide).deb
-Size: 189694
-MD5sum: 0b8a334c7ca0d187f72e9e3894117e2a
-SHA1: 3bf3174f67fb2e5f64fabe15811da2901f53cd80
-SHA256: 9f0273a297dd264819c5a0352040765e44ef5ee16add32ebcb36177c3ed5fda1
-Section: RootHide
-Description: Add some style to your switches 为您的开关增添一些风格
-Author: Finn Gaida
-Depiction: https://finngaida.de/repo/depictions/de.finngaida.daynightswitch
-Name: DayNightSwitch) (RootHide)
 
 Package: jp.akusio.milkyway4
 Version: 0.1.1
@@ -1516,46 +1303,6 @@ Icon: https://6080737.github.io/repo/
 Name: 苏苏破解AutoTocuh (RootHide)
 Sponsor: 苏苏·Repo
 
-Package: xyz.cypwn.accent
-Version: 0.0.2
-Architecture: iphoneos-arm64e
-Maintainer: 苏苏·Repo
-Installed-Size: 580
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, firmware (>= 15.0), ws.hbang.alderis
-Filename: debs/Accent Reborn (RootHide).deb
-Size: 279832
-MD5sum: 8a0073c3631e33baf3c73fd92062c827
-SHA1: 21f41ea33f8a62901fd94f3888fdaf5e9bb9b4f0
-SHA256: 609b12195dc5aaa3ee9276285d7cb49b53b0ad20351335a66a4cf30301f8589d
-Section: RootHide
-Description: Change accent colours systemwide
-Author: Paisseon
-Depiction: https://repo.cypwn.xyz/depiction/1991
-Icon: https://6080737.github.io/repo/
-Name: Accent Reborn (RootHide)
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1991
-
-Package: xyz.cypwn.accentcustom
-Version: 2.0.5
-Architecture: iphoneos-arm64e
-Maintainer: 苏苏·Repo
-Installed-Size: 408
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0), preferenceloader, com.spark.libsparkcolourpicker, com.spark.libsparkapplist
-Conflicts: com.ivanc.accent
-Filename: debs/Accent Custom (RootHide).deb
-Size: 68680
-MD5sum: 7aada360e959ec144e88fccc0ded0560
-SHA1: 733eb690b35c031e866ddc58ca566d16a12496cf
-SHA256: 4fe4f533c7fc0196651915ea101486d195697c5246a71141645ed17e787eef9d
-Section: RootHide
-Description: iOS Accent Colours In macOS Style
-Author: Lillie
-Depiction: https://repo.cypwn.xyz/depiction/1204
-Name: Accent Custom (RootHide)
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1204
-
 Package: xyz.cypwn.storeswitcher2
 Version: 1.0.4
 Architecture: iphoneos-arm64e
@@ -1574,25 +1321,6 @@ Depiction: https://repo.cypwn.xyz/depiction/2137
 Icon: https://6080737.github.io/repo/
 Name: StoreSwitcher 2 (RootHide)
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2137
-
-Package: xyz.cypwn.switchshades
-Version: 1.2k
-Architecture: iphoneos-arm64e
-Maintainer: 苏苏·Repo
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, preferenceloader, ws.hbang.common, xyz.cypwn.anthocrack2
-Filename: debs/SwitchShades (RootHide).deb
-Size: 307556
-MD5sum: 41efb29ad0941bd1a55f417bd2c9770d
-SHA1: 757737eea1ffb223a49db7d8f95c06f573919e3f
-SHA256: 58e155ed10979095c4937bb5b0f01ed8a9bfbb2c1f694e1d80d5f7ee5b6b6da1
-Section: RootHide
-Description: Bring color to your app switcher based on app icon
-Author: AnthoPak
-Depiction: https://repo.cypwn.xyz/depiction/2163
-Icon: https://6080737.github.io/repo/
-Name: SwitchShades (RootHide)
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2163
 
 Package: zp.3dtouchtounject.rootless
 Version: 1.0.2
@@ -1616,3 +1344,4 @@ Author: zqbb
 Name: 禁止注入之长按图标 - (RootHide)
 Sileodepiction: https://rootless.002599.xyz/web/zp.3dtouchtounject.rootless
 
+# Repo Updated: 
