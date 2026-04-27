@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # ==============================================
-# 苏苏·Repo 一键更新（自动清理旧版·清爽版）
+# 苏苏·Repo 一键更新（自动清理旧版·纯白输出版）
 # 路径已修正为你的真实 jbroot 路径
 # ==============================================
 REPO_DIR="/var/mobile/Containers/Shared/AppGroup/.jbroot-040125A46B9C1A69/var/mobile/Documents/repo"
@@ -11,7 +11,7 @@ git config --global user.name "你的GitHub用户名"
 git config --global user.email "你的GitHub注册邮箱"
 # -----------------------------------------------------------------------------
 
-# 彩色输出配置
+# 彩色输出配置（保持不变，只屏蔽多余内容）
 RED='\033[0;31m'
 GREEN='\033[0;32m'
 YELLOW='\033[1;33m'
@@ -59,15 +59,15 @@ cd ..
 echo -e "${GREEN}✅ 已只保留最新插件${NC}"
 echo
 
-# 3. 生成全新索引
+# 3. 生成全新索引（屏蔽所有dpkg-scanpackages警告和冗余输出）
 echo -e "${BLUE}📝 正在生成全新插件索引...${NC}"
-dpkg-scanpackages -m debs /dev/null > Packages
+dpkg-scanpackages -m debs /dev/null > Packages 2>/dev/null
 gzip -c Packages > Packages.gz
 bzip2 -c Packages > Packages.bz2
 echo -e "${GREEN}✅ 索引生成完成（共 $(grep -c '^Package:' Packages) 个插件）${NC}"
 echo
 
-# 4. 提交到本地Git（去掉时间戳，同时保留完整错误处理）
+# 4. 提交到本地Git
 echo -e "${CYAN}🚀 正在提交索引到本地仓库...${NC}"
 git add --all .
 if git commit -m "苏苏·Repo 一键更新：自动清理旧版"; then
