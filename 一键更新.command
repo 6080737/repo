@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # ==============================================
-# 苏苏·Repo 一键更新（SSH稳定版·清爽无冗余）
+# 苏苏·Repo 一键更新（SSH稳定版·脚本不上传GitHub）
 # ==============================================
 REPO_DIR="/var/mobile/Containers/Shared/AppGroup/.jbroot-040125A46B9C1A69/var/mobile/Documents/repo"
 
@@ -32,6 +32,13 @@ cd "$REPO_DIR" || {
     read -p "按 Enter 退出"
     exit 1
 }
+
+# 【关键】自动配置 .gitignore，防止脚本被上传
+cat > .gitignore << 'EOF'
+一键更新.command
+update.sh
+.gitignore
+EOF
 
 clear
 echo -e "${CYAN}==============================================${NC}"
@@ -65,7 +72,7 @@ bzip2 -c Packages > Packages.bz2
 echo -e "${GREEN}✅ 索引生成完成（共 $(grep -c '^Package:' Packages) 个插件）${NC}"
 echo
 
-# 4. 提交到本地Git
+# 4. 提交到本地Git（被.gitignore忽略的文件不会被上传）
 echo -e "${CYAN}🚀 正在提交索引到本地仓库...${NC}"
 git add --all .
 if git commit -m "苏苏·Repo 一键更新：自动清理旧版"; then
