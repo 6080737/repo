@@ -1,17 +1,16 @@
 #!/bin/bash
 
 # ==============================================
-# 苏苏·Repo 一键更新（自动清理旧版·纯白输出版）
-# 路径已修正为你的真实 jbroot 路径
+# 苏苏·Repo 一键更新（SSH稳定版·清爽无冗余）
 # ==============================================
 REPO_DIR="/var/mobile/Containers/Shared/AppGroup/.jbroot-040125A46B9C1A69/var/mobile/Documents/repo"
 
-# -------------------------- 必改：填入你的GitHub身份信息 --------------------------
-git config --global user.name "你的GitHub用户名"
-git config --global user.email "你的GitHub注册邮箱"
-# -----------------------------------------------------------------------------
+# 固定配置
+git config --global user.name "6080737"
+git config --global user.email "6080737@qq.com"
+git config --global http.postBuffer 524288000
 
-# 彩色输出配置（保持不变，只屏蔽多余内容）
+# 彩色输出配置
 RED='\033[0;31m'
 GREEN='\033[0;32m'
 YELLOW='\033[1;33m'
@@ -53,13 +52,12 @@ cd debs || {
     read -p "按 Enter 退出"
     exit 1
 }
-# 按版本排序，删除除最新版外的所有旧包
 ls -1 *.deb 2>/dev/null | sort -Vr | awk 'NR>1' | xargs rm -f 2>/dev/null
 cd ..
 echo -e "${GREEN}✅ 已只保留最新插件${NC}"
 echo
 
-# 3. 生成全新索引（屏蔽所有dpkg-scanpackages警告和冗余输出）
+# 3. 生成全新索引（屏蔽dpkg-scanpackages警告）
 echo -e "${BLUE}📝 正在生成全新插件索引...${NC}"
 dpkg-scanpackages -m debs /dev/null > Packages 2>/dev/null
 gzip -c Packages > Packages.gz
@@ -77,12 +75,12 @@ else
 fi
 echo
 
-# 5. 免密推送到GitHub
+# 5. 免密推送到GitHub（SSH协议稳定推送）
 echo -e "${PURPLE}☁️ 正在免密同步到GitHub仓库...${NC}"
 if git push -f origin main; then
     echo -e "${GREEN}✅ GitHub同步完成${NC}"
 else
-    echo -e "${RED}❌ GitHub推送失败！请检查网络或SSH密钥${NC}"
+    echo -e "${RED}❌ GitHub推送失败！请检查网络或SSH配置${NC}"
     read -p "按 Enter 退出"
     exit 1
 fi
