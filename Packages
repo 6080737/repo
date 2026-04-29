@@ -564,6 +564,25 @@ Author: Mao
 Name: 微信插件管理 (RootHide)
 Sponsor: 苏苏·Repo
 
+Package: com.Axs.qsyy
+Version: 1.2
+Architecture: iphoneos-arm64e
+Maintainer: 苏苏·Repo
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/汽水音乐 (RootHide).deb
+Size: 55910
+MD5sum: f0754cab94d2c5c706560ffb6e93ebdf
+SHA1: 5df6626ab8461c54e963ec25cd57ffe131b39bd7
+SHA256: f0011065063e7324b3ae99b512779caf764f1f382cd4aa937803d6420215c50e
+Section: RootHide
+Description: 禁止开屏广告、秒过激励式视频
+Author: Starry6
+Icon: https://6080737.github.io/repo/
+Name: 汽水音乐 (RootHide)
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/qsyy/js.json
+
 Package: com.build.ipa.filza.ad
 Version: 1.0
 Architecture: iphoneos-arm64e
