@@ -1,0 +1,29 @@
+{
+    "class": "DepictionTabView",
+    "minVersion": "0.1",
+    "headerImage": "https://raw.githubusercontent.com/6080737/repo/main/susu.png",
+    "tintColor": "#3B82F6",
+    "tabs": [
+        {
+            "class": "DepictionStackView",
+            "tabname": "Details",
+            "views": [
+                { "spacing": 15, "class": "DepictionSpacerView" },
+                { "text": "苏苏个人主页", "action": "https://6080737.github.io/repo/", "class": "DepictionButtonView" },
+                { "spacing": 8, "class": "DepictionSpacerView" },
+                { "class": "DepictionHeaderView", "title": "插件描述", "useBoldText": true },
+                { "spacing": 5, "class": "DepictionSpacerView" },
+                { "class": "DepictionMarkdownView", "markdown": "集合的控制中心模块：定位、注销、设置、VPN等模块来自skypain。一键清角标、微信扫码、支付宝扫码、双卡切换、蜂窝切换、迷你音量-亮度、启动QX等模块来自Netskao。实时CPU使用率模块来自SOPPPra。系统运行时间模块来自MTAC。感谢Skypain、Netskao、SOPPPra、MTAC等各位大佬！！！更新増加配合snapper2控制中心快速截图！无法安装请卸载相同类型插件！" },
+                { "spacing": 10, "class": "DepictionSpacerView" },
+                { "class": "DepictionHeaderView", "title": "插件信息", "useBoldText": true },
+                { "spacing": 5, "class": "DepictionSpacerView" },
+                { "class": "DepictionTableTextView", "title": "兼容", "text": "RootHide" },
+                { "class": "DepictionTableTextView", "title": "版本", "text": "2.1-1" },
+                { "class": "DepictionTableTextView", "title": "作者", "text": "妖刀" },
+                { "class": "DepictionTableTextView", "title": "大小", "text": "1M" },
+                { "class": "DepictionTableTextView", "title": "更新", "text": "2026-05-04" },
+                { "spacing": 20, "class": "DepictionSpacerView" }
+            ]
+        }
+    ]
+}

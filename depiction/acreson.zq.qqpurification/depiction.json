@@ -1,0 +1,29 @@
+{
+    "class": "DepictionTabView",
+    "minVersion": "0.1",
+    "headerImage": "https://raw.githubusercontent.com/6080737/repo/main/susu.png",
+    "tintColor": "#3B82F6",
+    "tabs": [
+        {
+            "class": "DepictionStackView",
+            "tabname": "Details",
+            "views": [
+                { "spacing": 15, "class": "DepictionSpacerView" },
+                { "text": "苏苏个人主页", "action": "https://6080737.github.io/repo/", "class": "DepictionButtonView" },
+                { "spacing": 8, "class": "DepictionSpacerView" },
+                { "class": "DepictionHeaderView", "title": "插件描述", "useBoldText": true },
+                { "spacing": 5, "class": "DepictionSpacerView" },
+                { "class": "DepictionMarkdownView", "markdown": "QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置-顶部" },
+                { "spacing": 10, "class": "DepictionSpacerView" },
+                { "class": "DepictionHeaderView", "title": "插件信息", "useBoldText": true },
+                { "spacing": 5, "class": "DepictionSpacerView" },
+                { "class": "DepictionTableTextView", "title": "兼容", "text": "RootHide" },
+                { "class": "DepictionTableTextView", "title": "版本", "text": "1.4-9" },
+                { "class": "DepictionTableTextView", "title": "作者", "text": "Netskao <netskao@gmail.com>" },
+                { "class": "DepictionTableTextView", "title": "大小", "text": "125K" },
+                { "class": "DepictionTableTextView", "title": "更新", "text": "2026-05-04" },
+                { "spacing": 20, "class": "DepictionSpacerView" }
+            ]
+        }
+    ]
+}

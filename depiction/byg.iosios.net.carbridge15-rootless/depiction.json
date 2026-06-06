@@ -1,0 +1,29 @@
+{
+    "class": "DepictionTabView",
+    "minVersion": "0.1",
+    "headerImage": "https://raw.githubusercontent.com/6080737/repo/main/susu.png",
+    "tintColor": "#3B82F6",
+    "tabs": [
+        {
+            "class": "DepictionStackView",
+            "tabname": "Details",
+            "views": [
+                { "spacing": 15, "class": "DepictionSpacerView" },
+                { "text": "苏苏个人主页", "action": "https://6080737.github.io/repo/", "class": "DepictionButtonView" },
+                { "spacing": 8, "class": "DepictionSpacerView" },
+                { "class": "DepictionHeaderView", "title": "插件描述", "useBoldText": true },
+                { "spacing": 5, "class": "DepictionSpacerView" },
+                { "class": "DepictionMarkdownView", "markdown": "Open any app in CarPlay!此版为破解版，让不支持互联的软件显示在车机上！仅供群友尝鮮，正版9.9美元，好像是有点贵，但是有能力的请支持正版！使用中有问题可以加群反馈，等待更新，也可直接入手正版哈，搬运工源只为免费搬运！旧版本在搬运工群文件里，新版本有问题的话，请手动降级回旧版本！不支持半越狱！" },
+                { "spacing": 10, "class": "DepictionSpacerView" },
+                { "class": "DepictionHeaderView", "title": "插件信息", "useBoldText": true },
+                { "spacing": 5, "class": "DepictionSpacerView" },
+                { "class": "DepictionTableTextView", "title": "兼容", "text": "RootHide" },
+                { "class": "DepictionTableTextView", "title": "版本", "text": "2.0.15" },
+                { "class": "DepictionTableTextView", "title": "作者", "text": "leftyfl1p" },
+                { "class": "DepictionTableTextView", "title": "大小", "text": "431K" },
+                { "class": "DepictionTableTextView", "title": "更新", "text": "2026-05-04" },
+                { "spacing": 20, "class": "DepictionSpacerView" }
+            ]
+        }
+    ]
+}

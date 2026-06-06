@@ -1,0 +1,89 @@
+{
+    "class": "DepictionTabView",
+    "minVersion": "0.1",
+    "headerImage": "https://raw.githubusercontent.com/6080737/repo/main/susu.png",
+    "tintColor": "#3B82F6",
+    "tabs": [
+        {
+            "class": "DepictionStackView",
+            "tabname": "Display",
+            "views": [
+                {
+          "spacing": 15,
+          "class": "DepictionSpacerView"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "text": "苏苏个人主页.Repo",
+          "action": "https://6080737.github.io/repo/",
+          "class": "DepictionButtonView"
+        },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 5
+                },
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "插件描述",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "{{package_description}}"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 5
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 5
+                },
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "插件详情",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "title": "作者",
+                    "text": "{{package_author}}"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "title": "版本",
+                    "text": "{{package_version}}"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "title": "大小",
+                    "text": "{{package_size}}"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "title": "时间",
+                    "text": "{{package_modified_date}}"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 5
+                }
+            ]
+        }
+    ]
+}

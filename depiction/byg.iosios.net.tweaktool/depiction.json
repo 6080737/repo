@@ -1,0 +1,29 @@
+{
+    "class": "DepictionTabView",
+    "minVersion": "0.1",
+    "headerImage": "https://raw.githubusercontent.com/6080737/repo/main/susu.png",
+    "tintColor": "#3B82F6",
+    "tabs": [
+        {
+            "class": "DepictionStackView",
+            "tabname": "Details",
+            "views": [
+                { "spacing": 15, "class": "DepictionSpacerView" },
+                { "text": "苏苏个人主页", "action": "https://6080737.github.io/repo/", "class": "DepictionButtonView" },
+                { "spacing": 8, "class": "DepictionSpacerView" },
+                { "class": "DepictionHeaderView", "title": "插件描述", "useBoldText": true },
+                { "spacing": 5, "class": "DepictionSpacerView" },
+                { "class": "DepictionMarkdownView", "markdown": "适合xina和多巴胺越狱的插件及其配置的一键备份恢复工具，非常的不错，感谢预言小猫。本插件使用方法：Filza进入/var/mobile/Documents/tweak_tool/目录，运行“一键备份和恢复工具.sh”文件即可，非常的简单，傻瓜式操作！插件也会保存在这个目录里！" },
+                { "spacing": 10, "class": "DepictionSpacerView" },
+                { "class": "DepictionHeaderView", "title": "插件信息", "useBoldText": true },
+                { "spacing": 5, "class": "DepictionSpacerView" },
+                { "class": "DepictionTableTextView", "title": "兼容", "text": "RootHide" },
+                { "class": "DepictionTableTextView", "title": "版本", "text": "2.0.0-beta" },
+                { "class": "DepictionTableTextView", "title": "作者", "text": "预言小猫" },
+                { "class": "DepictionTableTextView", "title": "大小", "text": "11K" },
+                { "class": "DepictionTableTextView", "title": "更新", "text": "2026-05-04" },
+                { "spacing": 20, "class": "DepictionSpacerView" }
+            ]
+        }
+    ]
+}

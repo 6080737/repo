@@ -1,0 +1,29 @@
+{
+    "class": "DepictionTabView",
+    "minVersion": "0.1",
+    "headerImage": "https://raw.githubusercontent.com/6080737/repo/main/susu.png",
+    "tintColor": "#3B82F6",
+    "tabs": [
+        {
+            "class": "DepictionStackView",
+            "tabname": "Details",
+            "views": [
+                { "spacing": 15, "class": "DepictionSpacerView" },
+                { "text": "苏苏个人主页", "action": "https://6080737.github.io/repo/", "class": "DepictionButtonView" },
+                { "spacing": 8, "class": "DepictionSpacerView" },
+                { "class": "DepictionHeaderView", "title": "插件描述", "useBoldText": true },
+                { "spacing": 5, "class": "DepictionSpacerView" },
+                { "class": "DepictionMarkdownView", "markdown": "锤子助手插件，感觉就是微信净化换了个名字重现江湖，至于有没有什么其它限制，暂时不清楚，喜欢微信净化的用户可以试试此插件，可以防撤回，抢红包，转发语音等功能，自行体验！感谢搬运工源群管理GODW分享，越狱因为分享更精彩！" },
+                { "spacing": 10, "class": "DepictionSpacerView" },
+                { "class": "DepictionHeaderView", "title": "插件信息", "useBoldText": true },
+                { "spacing": 5, "class": "DepictionSpacerView" },
+                { "class": "DepictionTableTextView", "title": "兼容", "text": "RootHide" },
+                { "class": "DepictionTableTextView", "title": "版本", "text": "2.4.1" },
+                { "class": "DepictionTableTextView", "title": "作者", "text": "DumpApp" },
+                { "class": "DepictionTableTextView", "title": "大小", "text": "11M" },
+                { "class": "DepictionTableTextView", "title": "更新", "text": "2026-05-17" },
+                { "spacing": 20, "class": "DepictionSpacerView" }
+            ]
+        }
+    ]
+}

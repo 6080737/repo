@@ -1,0 +1,34 @@
+{
+    "class": "DepictionTabView",
+    "minVersion": "0.1",
+    "headerImage": "https://raw.githubusercontent.com/6080737/repo/main/susu.png",
+    "tintColor": "#3B82F6",
+    "tabs": [
+        {
+            "class": "DepictionStackView",
+            "tabname": "Details",
+            "views": [
+                { "spacing": 15, "class": "DepictionSpacerView" },
+                { "text": "苏苏个人主页", "action": "https://6080737.github.io/repo/", "class": "DepictionButtonView" },
+                { "spacing": 8, "class": "DepictionSpacerView" },
+                { "class": "DepictionHeaderView", "title": "插件描述", "useBoldText": true },
+                { "spacing": 5, "class": "DepictionSpacerView" },
+                { "class": "DepictionMarkdownView", "markdown": "快速更改应用的名字、图标、机型、角标、版本号等。
+  快速更改应用的名字、图标、机型、角标、版本号等。
+ -随心所欲地更改系统应用和三方应用的名字
+ -从系统相册任意选择图片剪切为应用的图标
+ -手动选择软件内置机型和自定义需要的机型
+ -只需要点击一次就永久生效的清空角标功能" },
+                { "spacing": 10, "class": "DepictionSpacerView" },
+                { "class": "DepictionHeaderView", "title": "插件信息", "useBoldText": true },
+                { "spacing": 5, "class": "DepictionSpacerView" },
+                { "class": "DepictionTableTextView", "title": "兼容", "text": "RootHide" },
+                { "class": "DepictionTableTextView", "title": "版本", "text": "3.7.0" },
+                { "class": "DepictionTableTextView", "title": "作者", "text": "小哥哥 <zhulongfei28@gmail.com>" },
+                { "class": "DepictionTableTextView", "title": "大小", "text": "161K" },
+                { "class": "DepictionTableTextView", "title": "更新", "text": "2026-05-04" },
+                { "spacing": 20, "class": "DepictionSpacerView" }
+            ]
+        }
+    ]
+}

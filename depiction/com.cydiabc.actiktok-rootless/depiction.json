@@ -1,0 +1,31 @@
+{
+    "class": "DepictionTabView",
+    "minVersion": "0.1",
+    "headerImage": "https://raw.githubusercontent.com/6080737/repo/main/susu.png",
+    "tintColor": "#3B82F6",
+    "tabs": [
+        {
+            "class": "DepictionStackView",
+            "tabname": "Display",
+            "views": [
+                { "spacing": 15, "class": "DepictionSpacerView" },
+                { "class": "DepictionSeparatorView" },
+                { "text": "苏苏个人主页.Repo", "action": "https://6080737.github.io/repo/", "class": "DepictionButtonView" },
+                { "spacing": 5, "class": "DepictionSpacerView" },
+                { "class": "DepictionHeaderView", "title": "插件描述", "useBoldText": true, "useBottomMargin": false },
+                { "spacing": 8, "class": "DepictionSpacerView" },
+                { "class": "DepictionMarkdownView", "markdown": "TikTok一款新出的专门的下载插件！插件功能选项在tk设置顶部。" },
+                { "spacing": 5, "class": "DepictionSpacerView" },
+                { "class": "DepictionSeparatorView" },
+                { "spacing": 5, "class": "DepictionSpacerView" },
+                { "class": "DepictionHeaderView", "title": "插件详情", "useBoldText": true, "useBottomMargin": false },
+                { "spacing": 8, "class": "DepictionSpacerView" },
+                { "class": "DepictionTableTextView", "title": "作者", "text": "aJBboCydia" },
+                { "class": "DepictionTableTextView", "title": "版本", "text": "2.1" },
+                { "class": "DepictionTableTextView", "title": "大小", "text": "4.0K" },
+                { "class": "DepictionTableTextView", "title": "时间", "text": "2026-05-03" },
+                { "spacing": 5, "class": "DepictionSpacerView" }
+            ]
+        }
+    ]
+}
