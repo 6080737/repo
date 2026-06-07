@@ -611,16 +611,16 @@ Name: 苏自用全局开关颜色 (RootHide)
 Sileodepiction: https://6080737.github.io/repo/depiction/com.switchcolor.roothide/depiction.json
 
 Package: com.be-huge.insulation
-Version: 0.1.20-End
+Version: 0.1.21
 Architecture: iphoneos-arm64e
 Maintainer: doimty
 Installed-Size: 844
 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
-Filename: debs/温控insulation-roothide-0.1.20-End.deb
-Size: 110348
-MD5sum: eee53252a5e18cb7b221eb5031fb5f49
-SHA1: 20c7962ba9260ee1b0c420953fb97d317a2258ff
-SHA256: 8600cafaa0959b5d021e5472bf881f4e985256087f784da1a5d4ae4ce6dc5562
+Filename: debs/温控insulation-roothide-0.1.21.deb
+Size: 110172
+MD5sum: 08cdbd20d66eaa320fd8ce32498836a7
+SHA1: 2eb7b72c1bcc7fdb22db507bfe35772dcea96a30
+SHA256: e5106155c22f9dcde48302df7dc21be286ddf31919eb2d5abd7ee1244b59f1d6
 Section: RootHide
 Description: 解除温控，一切从简即可。代码来自开源项目：https://github.com/be-huge/insulation
 Author: be-huge & doimty
