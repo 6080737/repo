@@ -814,14 +814,15 @@ Installed-Size: 344
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, ws.hbang.alderis
 Filename: debs/全局开关自定义颜色.deb
-Size: 11520
-MD5sum: 9c0845fe8486f6964e2b26e2e5a76580
-SHA1: 1bea2af8039b2996340fa0ce37589ff55cf89580
-SHA256: 39f032c27471f2e91328dea58f5df2521f6341a42784dacfb2cbb131bca21116
-Section: Tweaks
+Size: 9924
+MD5sum: 77ecbf900ac8a64f3db520795cbb66ed
+SHA1: 12873cbf48279dd4ebd1ca0b6274b1403da2cb18
+SHA256: afc598d056dfb281f149fbf6672aa38ead59486adbfde0977a9e10791f492701
+Section: RootHide
 Description: 全局开关颜色，你可以自定义颜色。建议开启开关标签效果会更好，开启方法：前往“设置 - 通用 - 辅助功能 - 开/关标签”
 Author: iBreak <(null)>
 Name: iOS 全局开关颜色 (新版) ™
+Sileodepiction: https://6080737.github.io/repo/depiction/com.ibreak.switchcolor/depiction.json
 
 Package: com.iosdump.customcallbg
 Version: 0.0.5
