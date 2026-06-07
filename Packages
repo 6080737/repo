@@ -611,16 +611,16 @@ Name: 苏自用全局开关颜色 (RootHide)
 Sileodepiction: https://6080737.github.io/repo/depiction/com.switchcolor.roothide/depiction.json
 
 Package: com.be-huge.insulation
-Version: 0.1.21
+Version: 0.1.31.1
 Architecture: iphoneos-arm64e
 Maintainer: doimty
-Installed-Size: 844
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
-Filename: debs/温控insulation-roothide-0.1.21.deb
-Size: 110172
-MD5sum: 08cdbd20d66eaa320fd8ce32498836a7
-SHA1: 2eb7b72c1bcc7fdb22db507bfe35772dcea96a30
-SHA256: e5106155c22f9dcde48302df7dc21be286ddf31919eb2d5abd7ee1244b59f1d6
+Installed-Size: 612
+Depends: firmware (>= 15.0)
+Filename: debs/温控insulation-roothide-0.1.31.1.deb
+Size: 50936
+MD5sum: 79e370552365be64ce48c8f029744e1b
+SHA1: 21094a460d6b64315c41e3b29fef755128d65598
+SHA256: fa551f6e8fa27a33919f1172e9d366558bbf206ba3c7cf414e54a1efb2f0c6b1
 Section: RootHide
 Description: 解除温控，一切从简即可。代码来自开源项目：https://github.com/be-huge/insulation
 Author: be-huge & doimty
@@ -647,6 +647,24 @@ Author: iOS-AD
 Icon: https://6080737.github.io/repo/
 Name: FilzaScripts Build IPA (RootHide)
 Sileodepiction: https://6080737.github.io/repo/depiction/com.build.ipa.filza.ad/depiction.json
+
+Package: com.colorblack.pan123noads
+Version: 1.0.17-2+debug
+Architecture: iphoneos-arm64e
+Maintainer: ColorBlack
+Installed-Size: 532
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/123网盘去广告.deb
+Size: 69632
+MD5sum: 54952b5b4c32fe1a6ec1c49b94268dec
+SHA1: 252f13a95fb637cb417be923caea3f0fba2efc50
+SHA256: 5f5676768d37318af74968699d179c4dfb6b8538556253b892b59d937e41793a
+Section: RootHide
+Description: 移除123盘启动广告及一些内置广告弹窗等   QQ 群：205928931
+Author: ColorBlack
+Icon: https://huayuarc.github.io/icon/123.jpg
+Name: 123PanNoAds-roothide
+Sileodepiction: https://6080737.github.io/repo/depiction/com.colorblack.pan123noads/depiction.json
 
 Package: com.cydiabc.actiktok-rootless
 Version: 2.1
