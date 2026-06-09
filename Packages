@@ -883,10 +883,10 @@ Installed-Size: 14436
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, firmware (>= 12.0)
 Filename: debs/锤子助手_2.4.1_隐根.deb
-Size: 11241044
-MD5sum: 464dfa7900321e6e870b9f4b71d48994
-SHA1: 41dba5cf21c68118b88fc241d821f32243c2605c
-SHA256: 50ef89e39affb279ae872ba198dbaea34a313fee11db306471cb024a5439a8ba
+Size: 11244816
+MD5sum: 872fc45f7d4cf05c0625d2fba16d59f5
+SHA1: bcdbd71e9bef03c41748a5438678a28922192dff
+SHA256: 9ece5b8d3e872a7d3b9081f4b16b69eb9965ef45670536780df8e920625081aa
 Section: 微信WeChat
 Author: DumpApp
 Icon: file:///Applications/Cydia.app/Sections/Messaging.png

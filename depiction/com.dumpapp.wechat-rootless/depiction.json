@@ -22,7 +22,7 @@
                 { "class": "DepictionTableTextView", "title": "版本", "text": "2.4.1" },
                 { "class": "DepictionTableTextView", "title": "作者", "text": "DumpApp" },
                 { "class": "DepictionTableTextView", "title": "大小", "text": "11M" },
-                { "class": "DepictionTableTextView", "title": "更新", "text": "2026-06-09" },
+                { "class": "DepictionTableTextView", "title": "更新", "text": "2026-06-10" },
                 { "spacing": 20, "class": "DepictionSpacerView" }
             ]
         }
