@@ -1038,6 +1038,22 @@ Icon: https://6080737.github.io/repo/
 Name: QQ通知头像 (RootHide)
 Sileodepiction: https://6080737.github.io/repo/depiction/com.qqnotiavatar/depiction.json
 
+Package: com.roothide.patcher-cn
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: 苏苏
+Depends: com.roothide.patcher
+Filename: debs/苏苏汉化Patcher_1.0.deb
+Size: 1716
+MD5sum: 40bef3dcb81902b0a6ca7f2c63b2bcf4
+SHA1: 69992d39b441beff22084e97f185c34a7df28212
+SHA256: a9688028d07bec9345746f18242bf4f710376ba1794c172be4d534872ac85811
+Section: RootHide
+Priority: optional
+Description: 苏苏中文汉化补丁 for RootHide Patcher
+Name: RootHide Patcher 中文汉化
+Sileodepiction: https://6080737.github.io/repo/depiction/com.roothide.patcher-cn/depiction.json
+
 Package: com.sini.shuffle
 Version: 1.6.2
 Architecture: iphoneos-arm64e
