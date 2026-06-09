@@ -875,6 +875,24 @@ Author: Bandar Alruwaili
 Name: BHTikTok Plus(rootless)
 Sileodepiction: https://6080737.github.io/repo/depiction/com.dao.bhtiktokmod/depiction.json
 
+Package: com.dumpapp.wechat-rootless
+Version: 2.4.1
+Architecture: iphoneos-arm64e
+Maintainer: DumpApp
+Installed-Size: 14436
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 12.0)
+Filename: debs/锤子助手_2.4.1_隐根.deb
+Size: 11241044
+MD5sum: 464dfa7900321e6e870b9f4b71d48994
+SHA1: 41dba5cf21c68118b88fc241d821f32243c2605c
+SHA256: 50ef89e39affb279ae872ba198dbaea34a313fee11db306471cb024a5439a8ba
+Section: 微信WeChat
+Author: DumpApp
+Icon: file:///Applications/Cydia.app/Sections/Messaging.png
+Name: 锤子助手-Rootless
+Sileodepiction: https://6080737.github.io/repo/depiction/com.dumpapp.wechat-rootless/depiction.json
+
 Package: com.ibreak.switchcolor
 Version: 0.0.1
 Architecture: iphoneos-arm64e
@@ -1019,25 +1037,6 @@ Author: Netskao
 Icon: https://6080737.github.io/repo/
 Name: QQ通知头像 (RootHide)
 Sileodepiction: https://6080737.github.io/repo/depiction/com.qqnotiavatar/depiction.json
-
-Package: com.sini.dumpapp.wechat
-Version: 2.4.1
-Architecture: iphoneos-arm64e
-Maintainer: DumpApp
-Installed-Size: 14436
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, firmware (>= 12.0)
-Filename: debs/锤子助手_2.4.1.deb
-Size: 15293324
-MD5sum: 6d2b4f214ce978ca5de2310b1ef51299
-SHA1: a5fd5e0883bdbe47bbdf1badf1b19c928bdc57db
-SHA256: 690bf22625c2834daecf46918e632e9aa62774c3cc730e67b4e970cfe58cf068
-Section: Tweaks
-Description: 锤子助手
-Author: DumpApp
-Icon: https://huayuarc.github.io/icon/WeChat.jpg
-Name: 锤子助手
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/dumpapp.wechat-rootless/js.json
 
 Package: com.sini.shuffle
 Version: 1.6.2

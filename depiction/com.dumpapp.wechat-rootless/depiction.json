@@ -13,7 +13,7 @@
                 { "spacing": 8, "class": "DepictionSpacerView" },
                 { "class": "DepictionHeaderView", "title": "插件描述", "useBoldText": true },
                 { "spacing": 5, "class": "DepictionSpacerView" },
-                { "class": "DepictionMarkdownView", "markdown": "锤子助手" },
+                { "class": "DepictionMarkdownView", "markdown": "无插件描述" },
                 { "spacing": 10, "class": "DepictionSpacerView" },
                 { "spacing": 10, "class": "DepictionSpacerView" },
                 { "class": "DepictionHeaderView", "title": "插件信息", "useBoldText": true },
