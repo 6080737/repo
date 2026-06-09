@@ -156,26 +156,6 @@ Name: CarBridge汽车互联（Carplay） (RootHide)
 Sileodepiction: https://6080737.github.io/repo/depiction/byg.iosios.net.carbridge15-rootless/depiction.json
 Sponsor: 苏苏·Repo
 
-Package: byg.iosios.net.dumpapp.wechat-rootless
-Version: 2.4.1
-Architecture: iphoneos-arm64e
-Maintainer: 搬运工
-Installed-Size: 14436
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, firmware (>= 12.0)
-Filename: debs/锤子助手 (RootHide).deb
-Size: 11245452
-MD5sum: a435eb990a5c1acaf46c66280120e6d3
-SHA1: ec23bf60e2e07407ea0505e30d991356d067cd75
-SHA256: 773237fb1a9373581cbe8721d29fca6701ce61efad81d190832832458b771ade
-Section: 微信WeChat
-Description: 锤子助手插件，感觉就是微信净化换了个名字重现江湖，至于有没有什么其它限制，暂时不清楚，喜欢微信净化的用户可以试试此插件，可以防撤回，抢红包，转发语音等功能，自行体验！感谢搬运工源群管理GODW分享，越狱因为分享更精彩！
-Author: DumpApp
-Icon: https://chinesebuilding.club/pic/cydia.png
-Name: 锤子助手
-Sileodepiction: https://6080737.github.io/repo/depiction/byg.iosios.net.dumpapp.wechat-rootless/depiction.json
-Sponsor: 搬运工
-
 Package: byg.iosios.net.enableccmutemodule
 Version: 0.2.0
 Architecture: iphoneos-arm64e
@@ -1021,6 +1001,25 @@ Author: Netskao
 Icon: https://6080737.github.io/repo/
 Name: QQ通知头像 (RootHide)
 Sileodepiction: https://6080737.github.io/repo/depiction/com.qqnotiavatar/depiction.json
+
+Package: com.sini.dumpapp.wechat
+Version: 2.4.1
+Architecture: iphoneos-arm64e
+Maintainer: DumpApp
+Installed-Size: 14436
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 12.0)
+Filename: debs/锤子助手_2.4.1.deb
+Size: 15293324
+MD5sum: 6d2b4f214ce978ca5de2310b1ef51299
+SHA1: a5fd5e0883bdbe47bbdf1badf1b19c928bdc57db
+SHA256: 690bf22625c2834daecf46918e632e9aa62774c3cc730e67b4e970cfe58cf068
+Section: Tweaks
+Description: 锤子助手
+Author: DumpApp
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+Name: 锤子助手
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/dumpapp.wechat-rootless/js.json
 
 Package: com.sini.shuffle
 Version: 1.6.2
