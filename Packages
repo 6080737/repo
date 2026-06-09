@@ -670,16 +670,16 @@ Architecture: iphoneos-arm64e
 Maintainer: CreatureSurvive <support@creaturecoding.com>
 Pre-Depends: rootless-compat(>= 0.9), firmware (>= 8.0), com.ex.libsubstitute | mobilesubstrate
 Filename: debs/libcspreferences依赖.deb
-Size: 976986
-MD5sum: afe17e5063ab593d589436bc88af5942
-SHA1: 3a9cacc147ec1e21bc2a5b88af580058c5e1fe0a
-SHA256: b865bb28413aa3fe582410ecce310a2c6972ded45809580d474f1455db3ce7d8
-Section: Tweaks
+Size: 335760
+MD5sum: 1f1bcf2195c91f0e48e891d961aab04f
+SHA1: 19f920f32de74d915f97b32bac4ef1c15e582718
+SHA256: f43c6cfa10955424eac7e55a21d3343c7e154027eb2f8891cfcbead86ef6c0a6
+Section: RootHide
 Description: 有些插件需要这个依赖
 Author: CreatureSurvive <support@creaturecoding.com>
 Icon: https://sini921.github.io/repo/sileodepiction/icon/yilai.png
 Name: libCSPreferences-rootless
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/libcspreferences/js.json
+Sileodepiction: https://6080737.github.io/repo/depiction/com.creaturecoding.libcspreferences/depiction.json
 
 Package: com.cydiabc.actiktok-rootless
 Version: 2.1
@@ -1046,16 +1046,16 @@ Installed-Size: 1484
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: com.creaturecoding.libcspreferences
 Filename: debs/Shuffle带汉化1.6.2.deb
-Size: 329864
-MD5sum: ebeb983908243d160f2a9edf1debf60a
-SHA1: 988a7f680d876b101a356ce2f748b5f922ebb87c
-SHA256: ba66b0815e34507f6cfe4687f177dd16839f3750292d95a36dbf2bab5ed7c2e6
-Section: Tweaks
+Size: 268316
+MD5sum: 83ee287c237a8d93fe6e328f8357322f
+SHA1: 169214464e2896b06540311c4fbbb67c1cf91eae
+SHA256: 7853ae86b517b7e619fd47d03c63326ace7d8dea371ff8afd9980a0b3ee7f4b9
+Section: RootHide
 Description: 简单的设置归类，没有花里胡哨的功能
 Author: CreatureSurvive <support@creaturecoding.com>
 Icon: https://sini921.github.io/repo/sileodepiction/icon/shuffle.png
 Name: Shuffle-rootless
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/shuffle/js.json
+Sileodepiction: https://6080737.github.io/repo/depiction/com.sini.shuffle/depiction.json
 
 Package: com.skypain.teleportcn
 Version: 1.0.0-2

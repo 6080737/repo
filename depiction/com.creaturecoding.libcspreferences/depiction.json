@@ -22,7 +22,7 @@
                 { "class": "DepictionTableTextView", "title": "版本", "text": "1.5.8" },
                 { "class": "DepictionTableTextView", "title": "作者", "text": "CreatureSurvive support@creaturecoding.com" },
                 { "class": "DepictionTableTextView", "title": "大小", "text": "954K" },
-                { "class": "DepictionTableTextView", "title": "更新", "text": "2026-06-09" },
+                { "class": "DepictionTableTextView", "title": "更新", "text": "2026-06-10" },
                 { "spacing": 20, "class": "DepictionSpacerView" }
             ]
         }
