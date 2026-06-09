@@ -497,6 +497,24 @@ Name: 注销不锁屏 (RootHide)
 Sileodepiction: https://6080737.github.io/repo/depiction/byg.iosios.net.zhuxiao/depiction.json
 Sponsor: 苏苏·Repo
 
+Package: cn.llld.shelly
+Version: 0.0.2
+Architecture: iphoneos-arm64e
+Maintainer: 来了老弟
+Installed-Size: 200
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/Shelly汉化_0.0.2.deb
+Size: 15504
+MD5sum: 7c6cfc656e544adc9c1c5d4c781ac82b
+SHA1: e38b78ed93302f1b55e17d7c87e621afa371d124
+SHA256: 612b0bbead53eed4b5b682a981aa2ed5bc138117ef77e3ab884b109333f86206
+Section: RootHide
+Description: Shelly--(rootless)简体中文包
+Author: 来了老弟 h_h_x_t
+Name: shelly汉化-rootless
+Sileodepiction: https://6080737.github.io/repo/depiction/cn.llld.shelly/depiction.json
+
 Package: com.25mao.leftpan.rootless
 Version: 1.0-6
 Architecture: iphoneos-arm64e
