@@ -666,6 +666,23 @@ Icon: https://huayuarc.github.io/icon/123.jpg
 Name: 123PanNoAds-roothide
 Sileodepiction: https://6080737.github.io/repo/depiction/com.colorblack.pan123noads/depiction.json
 
+Package: com.creaturecoding.libcspreferences
+Version: 1.5.8
+Architecture: iphoneos-arm64e
+Maintainer: CreatureSurvive <support@creaturecoding.com>
+Pre-Depends: rootless-compat(>= 0.9), firmware (>= 8.0), com.ex.libsubstitute | mobilesubstrate
+Filename: debs/libcspreferences依赖.deb
+Size: 976986
+MD5sum: afe17e5063ab593d589436bc88af5942
+SHA1: 3a9cacc147ec1e21bc2a5b88af580058c5e1fe0a
+SHA256: b865bb28413aa3fe582410ecce310a2c6972ded45809580d474f1455db3ce7d8
+Section: Tweaks
+Description: 有些插件需要这个依赖
+Author: CreatureSurvive <support@creaturecoding.com>
+Icon: https://sini921.github.io/repo/sileodepiction/icon/yilai.png
+Name: libCSPreferences-rootless
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/libcspreferences/js.json
+
 Package: com.cydiabc.actiktok-rootless
 Version: 2.1
 Architecture: iphoneos-arm64e
@@ -842,6 +859,24 @@ Author: Bandar Alruwaili
 Name: BHInsta 中文版) (RootHide)
 Sileodepiction: https://6080737.github.io/repo/depiction/com.dao.bhinsta/depiction.json
 
+Package: com.dao.bhtiktokmod
+Version: 2.3
+Architecture: iphoneos-arm64e
+Maintainer: Dayanch96
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Conflicts: com.bandarhl.bhtiktok, com.hk.bhtiktok.cn.rl, com.dao.bhtiktok
+Filename: debs/BHtikTok Plus_2.3.deb
+Size: 484276
+MD5sum: 46a7799398fde4a44bca343b959c770f
+SHA1: 6f274ff0ffb3e7416885779282ee5d1595c3820d
+SHA256: 569fb9f93326b94f74e3ce0fb04ebcf8cf6c72db12000ae04aec35864e6376c9
+Section: RootHide
+Description: Dayanch96基于BandarHL开源的BHTikTok优化再开发的Plus版本，支持TikTok去广告、自动下一条、纯净模式、切换地区等、伪造粉丝数，视频下载等。
+Author: Bandar Alruwaili
+Name: BHTikTok Plus(rootless)
+Sileodepiction: https://6080737.github.io/repo/depiction/com.dao.bhtiktokmod/depiction.json
+
 Package: com.ibreak.switchcolor
 Version: 0.0.1
 Architecture: iphoneos-arm64e
@@ -932,6 +967,24 @@ Markdowndescription: View & Manage Applications Data from your Home Screen<br><b
 Name: AppData (RootHide)
 Sileodepiction: https://6080737.github.io/repo/depiction/com.netskao.appdata/depiction.json
 
+Package: com.netskao.filzacrack
+Version: 1.1-9
+Architecture: iphoneos-arm64e
+Maintainer: Nets
+Installed-Size: 120
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/Filza破解补丁.deb
+Size: 29452
+MD5sum: 9c0eb7304df6a425c5a2c25cdcb1bf61
+SHA1: 8fe71c51151aa4127163e30ca6574224479a8817
+SHA256: 94dc5ad9eeb429f51be647db263dd328355811dcefdb61f8da6b56da67169b61
+Section: RootHide
+Description: Filza Crack
+Author: Netskao
+Name: Filza Crack
+Sileodepiction: https://6080737.github.io/repo/depiction/com.netskao.filzacrack/depiction.json
+
 Package: com.netskao.smallbanners
 Version: 1.2-8
 Architecture: iphoneos-arm64e
@@ -968,6 +1021,25 @@ Author: Netskao
 Icon: https://6080737.github.io/repo/
 Name: QQ通知头像 (RootHide)
 Sileodepiction: https://6080737.github.io/repo/depiction/com.qqnotiavatar/depiction.json
+
+Package: com.sini.shuffle
+Version: 1.6.2
+Architecture: iphoneos-arm64e
+Maintainer: CreatureSurvive <support@creaturecoding.com>
+Installed-Size: 1484
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: com.creaturecoding.libcspreferences
+Filename: debs/Shuffle带汉化1.6.2.deb
+Size: 329864
+MD5sum: ebeb983908243d160f2a9edf1debf60a
+SHA1: 988a7f680d876b101a356ce2f748b5f922ebb87c
+SHA256: ba66b0815e34507f6cfe4687f177dd16839f3750292d95a36dbf2bab5ed7c2e6
+Section: Tweaks
+Description: 简单的设置归类，没有花里胡哨的功能
+Author: CreatureSurvive <support@creaturecoding.com>
+Icon: https://sini921.github.io/repo/sileodepiction/icon/shuffle.png
+Name: Shuffle-rootless
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/shuffle/js.json
 
 Package: com.skypain.teleportcn
 Version: 1.0.0-2
@@ -1177,6 +1249,26 @@ Description: This tool provides the way to WIPE, BACKUP, RESTORE AppData for ins
 Author: TIGI Software
 Name: Apps Manager (RootHide)
 Sileodepiction: https://6080737.github.io/repo/depiction/com.tigisoftware.appdatamanager/depiction.json
+
+Package: com.wxhbts.aria.rootless
+Version: 0.9.8
+Architecture: iphoneos-arm64e
+Maintainer: Luki
+Installed-Size: 680
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal
+Filename: debs/Aria 控制中心背景图_0.9.8-1.deb
+Size: 95676
+MD5sum: fb7ac3c2fe931b3538e0165dad84ea38
+SHA1: 246bf0b361ec14442600e432ea313d5238f85288
+SHA256: 70b5484fdd4b8244217cd6721cff114a9a9168c3ddaeda00545939cd23edaed9
+Section: RootHide
+Description: 修改控制中心背景图
+Author: Luki
+Depiction: https://apt.wxhbts.com/view/9411
+Icon: https://apt.wxhbts.com/icon/%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6.png
+Name: Aria 控制中心背景图-Rootless
+Sileodepiction: https://6080737.github.io/repo/depiction/com.wxhbts.aria.rootless/depiction.json
 
 Package: com.wxhbts.disablectnotifyui-rootless
 Version: 1.1-1
