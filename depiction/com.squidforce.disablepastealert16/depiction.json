@@ -17,13 +17,14 @@
  2. 禁用粘贴提醒
  * 如只需要禁用警告弹窗，可以降级安装版本0.0.1" },
                 { "spacing": 10, "class": "DepictionSpacerView" },
+                { "spacing": 10, "class": "DepictionSpacerView" },
                 { "class": "DepictionHeaderView", "title": "插件信息", "useBoldText": true },
                 { "spacing": 5, "class": "DepictionSpacerView" },
                 { "class": "DepictionTableTextView", "title": "兼容", "text": "RootHide" },
                 { "class": "DepictionTableTextView", "title": "版本", "text": "1.0" },
                 { "class": "DepictionTableTextView", "title": "作者", "text": "SquidForce" },
                 { "class": "DepictionTableTextView", "title": "大小", "text": "5K" },
-                { "class": "DepictionTableTextView", "title": "更新", "text": "2026-05-04" },
+                { "class": "DepictionTableTextView", "title": "更新", "text": "2026-06-10" },
                 { "spacing": 20, "class": "DepictionSpacerView" }
             ]
         }

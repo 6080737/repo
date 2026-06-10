@@ -1248,10 +1248,10 @@ Maintainer: 苏苏·Repo
 Installed-Size: 168
 Pre-Depends: rootless-compat(>= 0.9)
 Filename: debs/禁用iOS16+粘贴警告弹窗和粘贴提醒 - DisablePasteAlert16 (RootHide).deb
-Size: 5096
-MD5sum: 3e3131342568a54486cd4bc90947bc20
-SHA1: 597dca11ce97dd0ffe2012093a993415bc148b87
-SHA256: 7de995ea0a74e7295132fa3db90e39fd6ed13778b4337289ca8a2fd45b424266
+Size: 5092
+MD5sum: d336fb56ea81518f6a7f5c4c39f96142
+SHA1: d2d2c0c0182dbd8a14a5588efebc6dec506009f3
+SHA256: 38bca5a3262a82122b907088d410509de531b92284729a0a983336eab8488c6f
 Section: RootHide
 Description: 1. 禁用iOS16+粘贴警告弹窗，并自动允许
  2. 禁用粘贴提醒
@@ -1604,10 +1604,10 @@ Installed-Size: 168
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate
 Filename: debs/禁止注入之长按图标 - (RootHide).deb
-Size: 6700
-MD5sum: 8fcd66bb422e0ef2bb2b6c5a7bb1f792
-SHA1: 76ad5d142f2adea3f3512bb6eb61adf1e03ccb11
-SHA256: 16f2a0f6e5689e79d1a60d1e8493e678959ab3e66d47be6e92120a74b6c58d49
+Size: 6708
+MD5sum: a9243926bd3e23585c36efae85a6c8e3
+SHA1: 78047dd72a11b56016ea3dfa9278bdbacfacebcd
+SHA256: 985e69f12d8a23e909ad115d7dc98362d05412b180d8c700bd312a8027a4a6b4
 Section: RootHide
 Description: 底层控制是否禁用注入（也是操作plist文件，所以官方版不支持）
  - 优点：大部分APP不会检测到越狱。
