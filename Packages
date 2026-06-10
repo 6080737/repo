@@ -515,6 +515,42 @@ Author: 来了老弟 h_h_x_t
 Name: shelly汉化-rootless
 Sileodepiction: https://6080737.github.io/repo/depiction/cn.llld.shelly/depiction.json
 
+Package: cn.zqbb.3dtouch.inject.roothide
+Version: 2.1
+Architecture: iphoneos-arm64e
+Maintainer: zqbb
+Installed-Size: 168
+Depends: mobilesubstrate
+Conflicts: zp.3dtouchtounject
+Filename: debs/白名单注入之长按图标 (RootHide)-2.1.deb
+Size: 5756
+MD5sum: 07cdbb3e555143fd37a196784fe3872f
+SHA1: 42779ef461f1fa4e7d17ec740d789f0beea98eac
+SHA256: 8994c7a0d8ce1bec028aa396e4be8e216e91816ac35d41438cd69e81c60c8029
+Section: RootHide
+Description: roothide白名单版 控制是否注入（也是操作plist文件，官方版不支持）
+Author: zqbb
+Name: 白名单注入之长按图标 (RootHide)
+Sileodepiction: https://6080737.github.io/repo/depiction/cn.zqbb.3dtouch.inject.roothide/depiction.json
+
+Package: cn.zqbb.hellospeed
+Version: 1.2.2
+Architecture: iphoneos-arm64
+Maintainer: zqbb
+Installed-Size: 428
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/Hello Speed-1.2.2.deb
+Size: 78752
+MD5sum: 2714411bce49e67d6d167c419ca5266b
+SHA1: bc6e29a5f779ef1ff891db5334ad7e09584b82a9
+SHA256: 5a9bd4b7ff2c5540d27b17a5d8d60653c5e2d0dfddf1649564ee247624464c01
+Section: RootHide
+Description: SpringBoard动画加速!
+Author: zqbb
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.hellospeed
+Name: Hello Speed
+Sileodepiction: https://6080737.github.io/repo/depiction/cn.zqbb.hellospeed/depiction.json
+
 Package: com.25mao.leftpan.rootless
 Version: 1.0-6
 Architecture: iphoneos-arm64e
