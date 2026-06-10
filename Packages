@@ -1604,10 +1604,10 @@ Installed-Size: 168
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate
 Filename: debs/禁止注入之长按图标 - (RootHide).deb
-Size: 6696
-MD5sum: 2cffc2d3b77dd7e7b226843666a71dcf
-SHA1: 5dbbc2b22d4f48af5adcffe264fe4f0e1919cf23
-SHA256: 9832d7d2f630789afd1eb30746a0a045212a4cac011affee820087ea3dd9aece
+Size: 6700
+MD5sum: 8fcd66bb422e0ef2bb2b6c5a7bb1f792
+SHA1: 76ad5d142f2adea3f3512bb6eb61adf1e03ccb11
+SHA256: 16f2a0f6e5689e79d1a60d1e8493e678959ab3e66d47be6e92120a74b6c58d49
 Section: RootHide
 Description: 底层控制是否禁用注入（也是操作plist文件，所以官方版不支持）
  - 优点：大部分APP不会检测到越狱。

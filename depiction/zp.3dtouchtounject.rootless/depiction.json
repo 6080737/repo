@@ -19,13 +19,14 @@
  - 1.0.1：修复下初始化问题。
  - 1.0.2：细节优化。!" },
                 { "spacing": 10, "class": "DepictionSpacerView" },
+                { "spacing": 10, "class": "DepictionSpacerView" },
                 { "class": "DepictionHeaderView", "title": "插件信息", "useBoldText": true },
                 { "spacing": 5, "class": "DepictionSpacerView" },
                 { "class": "DepictionTableTextView", "title": "兼容", "text": "RootHide" },
                 { "class": "DepictionTableTextView", "title": "版本", "text": "1.0.2" },
                 { "class": "DepictionTableTextView", "title": "作者", "text": "zqbb" },
                 { "class": "DepictionTableTextView", "title": "大小", "text": "7K" },
-                { "class": "DepictionTableTextView", "title": "更新", "text": "2026-05-04" },
+                { "class": "DepictionTableTextView", "title": "更新", "text": "2026-06-10" },
                 { "spacing": 20, "class": "DepictionSpacerView" }
             ]
         }
