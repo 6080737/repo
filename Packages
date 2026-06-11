@@ -1596,25 +1596,3 @@ Icon: https://6080737.github.io/repo/
 Name: StoreSwitcher 2 (RootHide)
 Sileodepiction: https://6080737.github.io/repo/depiction/xyz.cypwn.storeswitcher2/depiction.json
 
-Package: zp.3dtouchtounject.rootless
-Version: 1.0.2
-Architecture: iphoneos-arm64e
-Maintainer: 苏苏·Repo
-Installed-Size: 168
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate
-Filename: debs/禁止注入之长按图标 - (RootHide).deb
-Size: 6708
-MD5sum: a9243926bd3e23585c36efae85a6c8e3
-SHA1: 78047dd72a11b56016ea3dfa9278bdbacfacebcd
-SHA256: 985e69f12d8a23e909ad115d7dc98362d05412b180d8c700bd312a8027a4a6b4
-Section: RootHide
-Description: 底层控制是否禁用注入（也是操作plist文件，所以官方版不支持）
- - 优点：大部分APP不会检测到越狱。
- - 缺点：插件无法生效。
- - 1.0.1：修复下初始化问题。
- - 1.0.2：细节优化。!
-Author: zqbb
-Name: 禁止注入之长按图标 - (RootHide)
-Sileodepiction: https://6080737.github.io/repo/depiction/zp.3dtouchtounject.rootless/depiction.json
-
