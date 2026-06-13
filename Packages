@@ -1055,6 +1055,27 @@ Author: Netskao
 Name: SmallBanners (RootHide)
 Sileodepiction: https://6080737.github.io/repo/depiction/com.netskao.smallbanners/depiction.json
 
+Package: com.newbie.ioscopy
+Version: 1.7.1
+Architecture: iphoneos-arm64e
+Maintainer: newbie and Codex
+Installed-Size: 1696
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), com.opa334.libsandy
+Conflicts: me.tomt000.copylog
+Replaces: me.tomt000.copylog
+Provides: me.tomt000.copylog
+Filename: debs/记录粘贴板ioscopy_1.7.1.deb
+Size: 235712
+MD5sum: d8cf5ef39d837d90509c70158fd019c9
+SHA1: 1e7f3dbd427414b705045428c67301e3b79e9bef
+SHA256: 8f8ed00774db1fe6d1968260d56ed9d7966f1c4e296ca55422df10b246990d48
+Section: RootHide
+Description: A modern clipboard history manager for iOS with pasted crash fixes and a beautiful UI.
+Author: newbie and Codex
+Name: iOSCopy
+Sileodepiction: https://6080737.github.io/repo/depiction/com.newbie.ioscopy/depiction.json
+
 Package: com.qqnotiavatar
 Version: 1.2-2
 Architecture: iphoneos-arm64e
