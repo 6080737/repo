@@ -932,19 +932,19 @@ Sileodepiction: https://6080737.github.io/repo/depiction/com.dumpapp.wechat-root
 Package: com.ibreak.switchcolor
 Version: 0.0.1
 Architecture: iphoneos-arm64e
-Maintainer: iBreak <(null)>
+Maintainer: SuSu·苏苏
 Installed-Size: 344
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, ws.hbang.alderis
-Filename: debs/全局开关自定义颜色.deb
-Size: 9924
-MD5sum: 77ecbf900ac8a64f3db520795cbb66ed
-SHA1: 12873cbf48279dd4ebd1ca0b6274b1403da2cb18
-SHA256: afc598d056dfb281f149fbf6672aa38ead59486adbfde0977a9e10791f492701
+Filename: debs/苏苏全局开关自定义颜色.deb
+Size: 11028
+MD5sum: 349bf8c785664b36f0b51262191e277e
+SHA1: 7587812aec4fede627f598261974b0cd5f71ac14
+SHA256: bc999d27547609b281f659dbc62df9de28461784da59881f3cd61fe0b0438475
 Section: RootHide
 Description: 全局开关颜色，你可以自定义颜色。建议开启开关标签效果会更好，开启方法：前往“设置 - 通用 - 辅助功能 - 开/关标签”
-Author: iBreak <(null)>
-Name: iOS 全局开关颜色 (新版) ™
+Author: SuSu·苏苏
+Name: iOS 全局开关颜色
 Sileodepiction: https://6080737.github.io/repo/depiction/com.ibreak.switchcolor/depiction.json
 
 Package: com.iosdump.customcallbg

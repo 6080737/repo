@@ -20,9 +20,9 @@
                 { "spacing": 5, "class": "DepictionSpacerView" },
                 { "class": "DepictionTableTextView", "title": "兼容", "text": "RootHide" },
                 { "class": "DepictionTableTextView", "title": "版本", "text": "0.0.1" },
-                { "class": "DepictionTableTextView", "title": "作者", "text": "iBreak <(null)>" },
-                { "class": "DepictionTableTextView", "title": "大小", "text": "10K" },
-                { "class": "DepictionTableTextView", "title": "更新", "text": "2026-06-07" },
+                { "class": "DepictionTableTextView", "title": "作者", "text": "SuSu·苏苏" },
+                { "class": "DepictionTableTextView", "title": "大小", "text": "11K" },
+                { "class": "DepictionTableTextView", "title": "更新", "text": "2026-06-17" },
                 { "spacing": 20, "class": "DepictionSpacerView" }
             ]
         }
