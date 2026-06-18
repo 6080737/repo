@@ -929,24 +929,6 @@ Icon: file:///Applications/Cydia.app/Sections/Messaging.png
 Name: 锤子助手-Rootless
 Sileodepiction: https://6080737.github.io/repo/depiction/com.dumpapp.wechat-rootless/depiction.json
 
-Package: com.ibreak.switchcolor
-Version: 0.0.1
-Architecture: iphoneos-arm64e
-Maintainer: SuSu·苏苏
-Installed-Size: 344
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, ws.hbang.alderis
-Filename: debs/苏苏全局开关自定义颜色.deb
-Size: 11028
-MD5sum: 349bf8c785664b36f0b51262191e277e
-SHA1: 7587812aec4fede627f598261974b0cd5f71ac14
-SHA256: bc999d27547609b281f659dbc62df9de28461784da59881f3cd61fe0b0438475
-Section: RootHide
-Description: 全局开关颜色，你可以自定义颜色。建议开启开关标签效果会更好，开启方法：前往“设置 - 通用 - 辅助功能 - 开/关标签”
-Author: SuSu·苏苏
-Name: iOS 全局开关颜色
-Sileodepiction: https://6080737.github.io/repo/depiction/com.ibreak.switchcolor/depiction.json
-
 Package: com.iosdump.customcallbg
 Version: 0.0.5
 Architecture: iphoneos-arm64e
@@ -1280,6 +1262,26 @@ Description: 1. 禁用iOS16+粘贴警告弹窗，并自动允许
 Author: SquidForce
 Name: 禁用iOS16+粘贴警告弹窗和粘贴提醒 - DisablePasteAlert16 (RootHide)
 Sileodepiction: https://6080737.github.io/repo/depiction/com.squidforce.disablepastealert16/depiction.json
+
+Package: com.susu.switchcolor
+Version: 0.0.3
+Architecture: iphoneos-arm64e
+Maintainer: SuSu·苏苏
+Installed-Size: 344
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, ws.hbang.alderis
+Conflicts: com.ibreak.switchcolor
+Replaces: com.ibreak.switchcolor
+Filename: debs/iOS全局开关自定义颜色_0.0.3.deb
+Size: 11492
+MD5sum: 2a6f0dc230751ece1fa16c291a490882
+SHA1: 5110f0894602dc2cdec604a0155fd294bec7e3de
+SHA256: 64f2b6066a13b4ba66008e9efd009f794c1d238f17537bcf46d5aa56efecb6ba
+Section: RootHide
+Description: 全局开关颜色，你可以自定义颜色。建议开启开关标签效果会更好，开启方法：前往“设置 - 通用 - 辅助功能 - 开/关标签”
+Author: SuSu·苏苏
+Name: iOS 全局开关颜色
+Sileodepiction: https://6080737.github.io/repo/depiction/com.susu.switchcolor/depiction.json
 
 Package: com.sutuplus.releasefugu15
 Version: 6.2.3-1
