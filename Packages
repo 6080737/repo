@@ -1264,19 +1264,19 @@ Name: 禁用iOS16+粘贴警告弹窗和粘贴提醒 - DisablePasteAlert16 (RootH
 Sileodepiction: https://6080737.github.io/repo/depiction/com.squidforce.disablepastealert16/depiction.json
 
 Package: com.susu.switchcolor
-Version: 0.0.3
+Version: 0.0.4
 Architecture: iphoneos-arm64e
 Maintainer: SuSu·苏苏
 Installed-Size: 344
 Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, ws.hbang.alderis
+Depends: mobilesubstrate, ws.hbang.alderis (>= 1.2)
 Conflicts: com.ibreak.switchcolor
 Replaces: com.ibreak.switchcolor
-Filename: debs/iOS全局开关自定义颜色_0.0.3.deb
-Size: 11492
-MD5sum: 2a6f0dc230751ece1fa16c291a490882
-SHA1: 5110f0894602dc2cdec604a0155fd294bec7e3de
-SHA256: 64f2b6066a13b4ba66008e9efd009f794c1d238f17537bcf46d5aa56efecb6ba
+Filename: debs/iOS全局开关自定义颜色0.0.4.deb
+Size: 10148
+MD5sum: 9fcdcd87f66cdea95acc9d924bf590a7
+SHA1: e90742432069b34e727953b5d40e004a231d3d30
+SHA256: ed0011ed4c2555a479fd3d5a6ee3f801ee24058e18e0dd0becfd42bf0f8c065a
 Section: RootHide
 Description: 全局开关颜色，你可以自定义颜色。建议开启开关标签效果会更好，开启方法：前往“设置 - 通用 - 辅助功能 - 开/关标签”
 Author: SuSu·苏苏
