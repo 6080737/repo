@@ -682,6 +682,23 @@ Icon: https://6080737.github.io/repo/
 Name: FilzaScripts Build IPA (RootHide)
 Sileodepiction: https://6080737.github.io/repo/depiction/com.build.ipa.filza.ad/depiction.json
 
+Package: com.c.adcolor
+Version: 0.0.1
+Architecture: iphoneos-arm64e
+Maintainer: Color
+Installed-Size: 4080
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/广告净化 Adcolor-0.0.1.deb
+Size: 398656
+MD5sum: 572002960491784aab12ab0faea18964
+SHA1: 9dd0a2b10944fc2b5c0d406a2e8f003ef9fa1493
+SHA256: 6a3ef2003f2db285af953f3c405845bf904720cdfaf9f5fca8fe94bbedf71862
+Section: RootHide
+Description: 去掉常见App 8层以上开屏广告，部分不常见 app 可能会有遗漏，属正常，等后续更新， RootHide/Dopamine.
+Author: Color
+Name: AdColor-广告净化
+Sileodepiction: https://6080737.github.io/repo/depiction/com.c.adcolor/depiction.json
+
 Package: com.colorblack.pan123noads
 Version: 1.0.17-2+debug
 Architecture: iphoneos-arm64e
