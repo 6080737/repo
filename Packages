@@ -982,6 +982,24 @@ Author: iosdump
 Name: CustomCallBg (RootHide)
 Sileodepiction: https://6080737.github.io/repo/depiction/com.iosdump.customcallbg/depiction.json
 
+Package: com.iosdump.customccbg
+Version: 0.0.1
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Installed-Size: 388
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/控制中心背景自定义-0.0.1.deb
+Size: 45584
+MD5sum: e27cf082b674ac9f1c425196dbeb8fd1
+SHA1: f32d9b731c0ac7349069dd895e7d3900e8aa977f
+SHA256: dad02dd75399abb1306aa0fd59405dd8b4aaa2835f566c12c7203ee668f0e3b1
+Section: RootHide
+Description: iOS 14-17 控制中心背景自定义
+Author: iosdump
+Icon: https://huayuarc.github.io/icon/CustomCCBg.png
+Name: 控制中心背景自定义
+Sileodepiction: https://6080737.github.io/repo/depiction/com.iosdump.customccbg/depiction.json
+
 Package: com.lclrc.hammerit
 Version: 1.7.0
 Architecture: iphoneos-arm64e
