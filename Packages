@@ -946,6 +946,25 @@ Icon: file:///Applications/Cydia.app/Sections/Messaging.png
 Name: 锤子助手-Rootless
 Sileodepiction: https://6080737.github.io/repo/depiction/com.dumpapp.wechat-rootless/depiction.json
 
+Package: com.huayuarc.cputhermal
+Version: 1.0.0-3+debug
+Architecture: iphoneos-arm64e
+Maintainer: Huayuarc
+Installed-Size: 796
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/老版本CPUthermal-1.0.0-3.deb
+Size: 63108
+MD5sum: 30f0c7f7082e072e9100b0c7c89f411c
+SHA1: 8b2dc581052d8b3d1d14d2d38e1a84be69052d7d
+SHA256: 649d1410e9f039318423abb8dd780ee97a9948ed22cb53de4b541b2b7e57bea9
+Section: RootHide
+Description: 温控插件 — 注入 thermalmonitord 阻止高温降频/降亮度。双防护层：IOKit 层拦截传感器读写 + Darwin 通知广播；ObjC 层钩住 ThermalManager/ThermalControl 决策树、控制力度计算、热压力升级。所有钩子有独立开关，75°C 安全阀自动放行紧急保护。支持软化模式（减半不归零）和热配置表修改（+5°C 阈值）。
+Author: Huayuarc
+Icon: https://huayuarc.github.io/icon/Insulation.png
+Name: CPUthermal-roothide
+Sileodepiction: https://6080737.github.io/repo/depiction/com.huayuarc.cputhermal/depiction.json
+
 Package: com.iosdump.customcallbg
 Version: 0.0.5
 Architecture: iphoneos-arm64e
